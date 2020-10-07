@@ -7,6 +7,7 @@ This is my personal website build with libraries like Bootstrap, Jquery or Parti
 * [Libraries](#libraries)
 * [Running the application](#running-the-application)
 * [Application access](#application-access)
+* [Screens](#screens)
 
 ## Prerequisites
 - [Docker Desktop](https://www.docker.com/products/docker-desktop) 
@@ -51,3 +52,8 @@ Component             | URL
 ---                   | ---                                      
 Website               | [http://localhost/](http://localhost/)                 
 MailHog UI            | [http://localhost:8025/](http://localhost:8025/)                 
+
+## Screens
+![alt text](https://raw.githubusercontent.com/DanielMichalski/responsive-personal-website/master/src/images/about-website/home.jpg "Screen 1")
+
+![alt text](https://raw.githubusercontent.com/DanielMichalski/responsive-personal-website/master/src/images/about-website/expertise.jpg "Screen 2")
