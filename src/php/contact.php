@@ -57,18 +57,12 @@ $headers .= "Content-type: text/plain; charset=utf-8" . PHP_EOL;
 $headers .= "Content-Transfer-Encoding: quoted-printable" . PHP_EOL;
 
 if (mail($address, $e_subject, $comments, $headers)) {
-
-    // Email has sent successfully, echo a success page.
-
     echo "<fieldset>";
     echo "<div id='success_page'>";
     echo "<h3>Email Sent Successfully.</h3>";
-    echo "<p>Thank you <strong>$name</strong>, your message has been submitted to us.</p>";
+    echo "<p>Thank you <strong>$name</strong>, your message has been submitted to me.</p>";
     echo "</div>";
     echo "</fieldset>";
-
 } else {
-
     echo 'There was an unexpected error during sending an email!';
-
 }
