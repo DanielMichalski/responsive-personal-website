@@ -1,6 +1,6 @@
 # Personal Website
 
-This is my personal website build with libraries like Boostrap, Jquery or Particles Js.
+This is my personal website build with libraries like Bootstrap, Jquery or Particles Js.
 
 ## Table of Contents
 * [Prerequisites](#prerequisites)
