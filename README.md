@@ -54,6 +54,6 @@ Website               | [http://localhost/](http://localhost/)
 MailHog UI            | [http://localhost:8025/](http://localhost:8025/)                 
 
 ## Screens
-![alt text](https://raw.githubusercontent.com/DanielMichalski/responsive-personal-website/master/src/images/about-website/home.jpg "Screen 1")
+![alt text](https://raw.githubusercontent.com/DanielMichalski/responsive-personal-website/master/src/images/about-website/home.jpg =250x)
 
 ![alt text](https://raw.githubusercontent.com/DanielMichalski/responsive-personal-website/master/src/images/about-website/expertise.jpg "Screen 2")
