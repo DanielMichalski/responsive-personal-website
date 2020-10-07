@@ -54,8 +54,4 @@ Website               | [http://localhost/](http://localhost/)
 MailHog UI            | [http://localhost:8025/](http://localhost:8025/)                 
 
 ## Screens
-<img alt="image1" width="500px" src="https://raw.githubusercontent.com/DanielMichalski/responsive-personal-website/master/src/images/about-website/home.jpg" />
-
-<br/><br/>
-
-<img alt="image2" width="500px" src="https://raw.githubusercontent.com/DanielMichalski/responsive-personal-website/master/src/images/about-website/expertise.jpg" />
+<img align="center" alt="image1" width="500px" src="https://raw.githubusercontent.com/DanielMichalski/responsive-personal-website/master/src/images/about-website/home.jpg" />
