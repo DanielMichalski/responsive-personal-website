@@ -1,0 +1,47 @@
+//
+// about.scss
+//
+.about-hero {
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0px;
+        right: 3%;
+        left: 3%;
+        bottom: 0%;
+        border-radius: 7px;
+        border: 16px solid $gray-200;
+    }
+}
+
+//Interests
+.interests-desc {
+    transition: all 0.2s ease;
+    .hobbies {
+        &:before {
+            content: '';
+            position: absolute;
+            width: 1px;
+            height: 100%;
+            top: 0;
+            left: 55px;
+            background: $gray-200;
+            z-index: 1;
+        }
+    }
+    .icon {
+        width: 40px;
+        transition: all 0.2s ease;
+    }
+    .title {
+        font-weight: 500;
+    }
+    &:hover {
+        background: $white !important;
+        box-shadow: $shadow-lg;
+        transform: translateY(-5px);
+        .icon {
+            color: $primary;
+        }
+    }
+}

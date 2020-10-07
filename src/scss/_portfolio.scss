@@ -1,0 +1,84 @@
+//
+// portfolio.scss
+//
+.portfolioFilter {
+    li {
+        a {
+            transition: all 0.4s ease-in-out;
+            line-height: 30px;
+            &:hover, &.active {
+                color: $white !important;
+                background-color: $primary;
+            }
+        }
+    }
+}
+
+.portfolio-box {
+    transition: all 0.2s ease;
+    .portfolio-box-img {
+        img {
+            transition: all 0.5s ease;
+        }
+        .overlay-work {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            opacity: 0; 
+            transition: all 0.5s ease;
+            background-color: rgba($dark, 0.65);
+            .work-content {
+                position: absolute;
+                bottom: 50%;
+                transform: translateY(50%);
+                right: 0;
+                left: 0;
+                .work-icon {
+                    height: 45px;
+                    width: 45px;
+                    line-height: 43px;
+                    transform: translateY(40px);
+                    transition: all 0.5s ease;
+                    .image-icon {
+                        stroke-width: 2 !important;
+                    }
+                    &:hover {
+                        color: $primary !important;
+                    }
+                }
+            }
+        }
+    }
+    .gallary-title {
+        background: lighten($gray-100, 5%);
+        .title {
+            transition: all 0.5s ease;
+            font-weight: 500;
+            font-size: 16px !important;
+            &:hover {
+                color: $primary !important;
+            }
+        }   
+    }
+    &:hover {
+        box-shadow: $shadow-lg;
+        transform: translateY(-5px);
+        .portfolio-box-img{
+            img {
+                transform: rotate(2deg) scale(1.15);
+                opacity: 0.5;
+            }
+            .overlay-work {
+                opacity: 1;
+                transform: scale(1);
+                .work-content {
+                    .work-icon { 
+                        transform: translateY(0px);
+                    }
+                }
+            }
+        }
+    }
+}

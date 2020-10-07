@@ -1,0 +1,117 @@
+//
+// home.scss
+//
+
+@mixin home-common {
+    background-size: cover;
+    align-self: center;
+    position: relative;
+    background-position: center center;
+}
+
+.home-center {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.home-desc-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+.bg-home {
+    padding: 260px 0;
+    @include home-common();
+}
+.bg-half {
+    padding: 170px 0;
+    @include home-common();
+}
+.mouse-icon {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 42px;
+    border: 2px solid $gray-700;
+    bottom: 30px;
+    margin: auto;
+    width: 30px;
+    z-index: 2;
+    box-shadow: $shadow;
+    &.mouse-icon-white {
+        border-color: $light;
+        .wheel {
+            background: $light;
+        }
+    }
+    .wheel {
+        background: $gray-700;
+        height: 8px;
+        margin-left: auto;
+        margin-right: auto;
+        top: 30px;
+        width: 2px;
+    }
+}
+
+.mover {
+    animation: mover 1s infinite alternate;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+//Clip Home
+.clip-home {
+    clip-path: polygon(0 0, 100% 0, 100% 83%, 50% 100%, 0 83%);
+}
+
+// BOXED HOME
+#sThemes-layout {
+    background: url('../images/boxed.png') fixed repeat;
+    .sThemesbox {
+        background: $white;
+        box-shadow: $shadow;
+        max-width: 1170px;
+        margin: 0 auto;
+        .boxed-home {
+            max-width: 1170px;
+            margin: 0 auto;
+        }
+    }
+}
+//Glitch Home
+.glitch-img {
+    position: absolute;
+ 	width: 100%;
+ 	height: 100%;
+	top: 0;
+    left: 0;
+	z-index: -1 !important;
+} 
+
+//Creative Home
+.home-shape {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    bottom: -1px;
+    left: 0;
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (min-width: 200px) and (max-width: 767px) {
+    .bg-home, .bg-half {        
+        padding: 150px 0;
+        height: auto;
+    } 
+}

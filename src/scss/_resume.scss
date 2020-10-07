@@ -1,0 +1,115 @@
+//
+// resume.scss
+//
+.main-icon {
+    border: 2px solid $gray-400;
+    height: 40px;
+    width: 40px;
+    line-height: 0;
+    text-align: center;
+}
+.timeline-page {
+    &:after {
+        background-color: $gray-400 !important;
+        content: "";
+        height: 95%;
+        left: 0;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 2px;
+    }
+    .timeline-item {
+        .date-label-left, .duration-right {
+            margin-right: 15px;
+            &:after {
+                border: 2px solid $body-color;
+                content: "";
+                position: absolute;
+                top: 12px;
+                width: 12px;
+                height: 12px;
+                z-index: 1;
+                background-color: $gray-100;
+                border-radius: 30px;
+            }
+        }
+        .date-label-left {            
+            float: right;
+            margin-right: 15px;
+            &:after {                
+                right: -37px;
+            }
+        }        
+        .duration-right {
+            float: left;
+            margin-left: 15px;
+            &:after {                
+                left: -37px;
+            }
+        }
+        .event {
+            transition: all 0.2s ease;
+            .title {
+                font-weight: 500;
+                transition: all 0.2s ease;
+                font-size: 18px !important;
+            }
+            .company {
+                font-size: 13px;
+            }
+            &.event-description-right {
+                text-align: left;
+                margin-left: 15px;
+            }
+            &.event-description-left {
+                text-align: right;
+                margin-right: 15px;
+            }
+            .timeline-subtitle {
+                font-size: 14px;
+            }
+            &:hover {
+                box-shadow: $shadow-lg;
+                transform: translateY(-5px);
+                border-color: transparent !important;
+                .title {
+                    color: $primary;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 768px) {
+    .main-icon {
+        margin: 0 auto;        
+    }
+}
+
+@media (max-width: 767px) {
+    .timeline-page {
+        margin-left: 18px;
+        &:after {
+            margin: 0;
+        }
+        .timeline-item {
+            .duration {
+                float: left !important;
+                margin: 0 0 30px 15px !important;
+                text-align: left !important;
+                &:after {
+                    left: -21px !important;
+                }
+                .event {
+                    text-align: left !important;
+                    margin-left: 15px;
+                }
+            }
+            .event-description-left {
+                text-align: left !important;
+                margin: 0 0 0 15px;
+            }
+        }
+    }
+}

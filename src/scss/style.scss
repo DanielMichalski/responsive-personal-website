@@ -1,0 +1,44 @@
+/* Template Name: Samuel - Responsive Personal Template
+   Author: Uniquecrew
+   Version: 1.0
+   Created: September, 2020
+   File Description: Main Css file of the template
+*/
+
+/***********************/
+/*       INDEX         */
+/*======================
+ *    01.  Variables   *
+ *    02.  Components  *
+ *    03.  General     *
+ *    04.  Helper      *
+ *    05.  Menu        *
+ *    06.  Home        *
+ *    07.  About       *
+ *    08.  Service     *
+ *    09.  Counter     *
+ *    10.  Resume      *
+ *    11.  C.T.A       *
+ *    12.  Portfolio   *
+ *    13.  Testi       *
+ *    14.  Blog        *
+ *    15.  Contact     *
+ *    16.  Footer      *
+ ======================*/
+
+@import "variables";
+@import "bootstrap-custom";
+@import "components";
+@import "general";
+@import "helper";
+@import "menu";
+@import "home";
+@import "about";
+@import "service";
+@import "resume";
+@import "cta";
+@import "portfolio";
+@import "testi";
+@import "blog";
+@import "contact";
+@import "footer";

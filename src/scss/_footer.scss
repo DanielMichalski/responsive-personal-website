@@ -1,0 +1,13 @@
+//
+// footer.scss
+//
+.footer {
+    padding: 60px 0;
+    position: relative;
+    color: $gray-500;
+    font-size: 15px;
+    &.footer-bar {
+        padding: 30px 0;
+        border-top: 1px solid lighten($gray-700, 2%);
+    }
+}

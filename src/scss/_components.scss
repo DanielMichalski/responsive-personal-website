@@ -1,0 +1,324 @@
+//
+// components.scss
+//
+//Buttons
+//Buttons
+@each $name,
+$value in $colors {
+    .btn-#{$name} {
+        background-color: #{$value} !important;
+        border: 1px solid #{$value} !important;
+        color: $white !important;
+        box-shadow: 0 3px 5px 0 rgba($value, 0.3);
+        &:hover, &:focus, &:active, &.active, &.focus{
+            background-color: darken($value, 10%) !important;
+            border-color: darken($value, 10%) !important;
+            color: $white !important;
+        }
+    }
+
+    .btn-outline-#{$name} {
+        border: 1px solid #{$value};
+        color: #{$value};
+        background-color: transparent;    
+        &:hover, &:focus, &:active, &.active, &.focus, &:not(:disabled):not(.disabled):active{
+            background-color: #{$value};
+            border-color: #{$value};
+            color: $white !important;
+            box-shadow: 0 3px 5px 0 rgba($value, 0.3);
+        }
+    }
+}
+.btn {
+    padding: 8px 20px;
+    outline: none;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    transition: all 0.3s;
+    border-radius: 7px;
+    &:focus {
+        box-shadow: none !important;
+    }
+    &.btn-sm {
+        padding: 7px 16px;
+        font-size: 10px;
+    }
+    &.btn-lg {
+        padding: 14px 30px;
+        font-size: 16px;
+    } 
+    &.searchbtn {
+        padding: 6px 20px;
+    }
+    &.btn-pills {
+        border-radius: 30px;
+    }
+    &.btn-light {
+        color: $dark !important;
+        background: $light !important;
+        border: 1px solid $gray-300 !important;
+        &:hover, &:focus, &:active, &.active, &.focus{
+            background-color: darken($light, 2%) !important;
+            color: $dark !important; 
+        }
+    }    
+    &.btn-outline-light {
+        border: 1px solid $gray-300 !important;
+        color: $dark !important;
+        background-color: transparent;    
+        &:hover, &:focus, &:active, &.active, &.focus{
+            background-color: $light !important;
+            color: $dark !important;
+        }
+    }
+    &.btn-icon {
+        display: inline-block;
+        height: 35px;
+        text-align: center;
+        width: 35px;
+        line-height: 32px;
+        padding: 0;
+    }
+}
+
+button:not(:disabled) {
+    outline: none;
+    border: 0;
+}
+
+//Avatar
+.avatar {
+    &.avatar-small {
+        height: 64px;
+        width: 64px;
+    }
+
+    &.avatar-md {
+        height: 192px;
+        width: 192px;
+    }
+
+    &.avatar-lg {
+        height: 256px;
+        width: 256px;
+    }
+}
+
+//Processbar
+.progress-box {
+    .progress {
+        height: 8px;
+        overflow: visible;
+        .progress-bar {
+            animation: animate-positive 3s !important;
+            overflow: visible !important;
+            border-radius: 5px;
+        }
+        .progress-value {
+            position: absolute;
+            top: -30px;
+            right: -15px;
+            font-size: 13px;
+        }
+    }
+    @keyframes animate-positive {
+        0% {
+            width: 0;
+        }
+    }
+}
+//Nav
+.nav-pills {
+    .nav-link{
+        color: $body-color !important;
+        margin: auto 15px;
+        border: 1px solid $gray-200;
+        &.active {
+            background-color: $primary;
+            color: $white !important;
+            border-color: $primary !important;
+            box-shadow: $shadow;
+        }
+    }
+    a {
+        .skill-container {
+            .title {
+                font-size: 14px !important;
+            }
+        }
+    }
+}
+
+//Breadcrumb
+.page-next-level{
+    .title {
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+    .page-next {
+        letter-spacing: 0.5px;
+        li {
+            display: inline-block;
+            margin-right: 5px;
+            &:after {
+                content: "\f142";
+                font-size: 16px;
+                color: $dark; 
+                font-family: 'Material Design Icons';
+            }     
+            &:last-child {
+                margin-right: 0;
+                &:after {
+                    display: none;
+                }
+            }       
+            a, span {        
+                padding-right: 8px;           
+                transition: all 0.2s ease;
+                font-weight: 500;
+            }
+            a {
+                &:hover {
+                    color: $primary !important;
+                } 
+            }
+            span {
+                &:last-child {
+                    padding-right: 0px;
+                }
+            }
+        }
+    }
+}
+
+//Pagination
+.pagination {    
+    line-height: 20px;
+    font-size: 13px;
+    li {
+        display: inline;
+        &:first-child a {
+            border-left-width: 1px;
+            border-radius: 4px 0 0 4px;
+        } 
+        &:last-child a{
+            border-radius: 0 4px 4px 0;
+        }
+        a {
+            float: left;
+            text-decoration: none;
+            color: $dark;
+            border: 1px solid $gray-300;
+            border-left-width: 0;
+            background: $white; 
+            &:hover {
+                color: $white;
+                background: $primary;
+                border-color: $primary;
+            }
+        }
+    }              
+    .active a {
+        color: $white;
+        background: $primary !important;
+        border-color: $primary;
+        cursor: not-allowed;
+    }
+}
+
+//Social icons
+.social-icon {
+    li {
+        a {
+            color: $gray-500;
+            border: 1px solid $gray-500;
+            display: inline-block;
+            height: 32px;
+            text-align: center;
+            font-size: 15px;
+            width: 32px;
+            line-height: 30px;
+            transition: all 0.4s ease;
+            border-radius: 7px;
+            &:hover {
+                background-color: $primary;
+                border-color: $primary !important;
+                color: $white !important;
+            }
+        }
+    }
+    &.social {
+        li {
+            a {
+                color: $body-color;
+                border-color: $body-color;
+            }
+        }
+    }
+}
+//back to top
+.back-to-top {
+    z-index: 99; 
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 33px;
+    height: 33px;
+    line-height: 33px;
+    display: none;
+    color: $white;
+    background-color: $gray-600;
+    transition: all 0.2s ease; 
+    box-shadow: $shadow;
+    i {
+        font-size: 16px;        
+    }
+    &:hover {
+        background-color: $primary;
+        color: $white;
+    }
+}
+//blockquote
+.blockquote {
+    border-left: 3px solid $gray-300;
+    font-size: 16px;
+}
+
+//Feather Icon
+.fea {
+    stroke-width: 1.6;
+    &.icon-sm {
+        height: 16px;
+        width: 16px;
+    }
+    &.icon-md-sm {
+        height: 24px;
+        width: 24px;
+    }
+    &.icon-md {
+        height: 32px;
+        width: 32px;
+    }
+    &.icon-lg {
+        height: 42px;
+        width: 42px;
+    }
+    &.icon-ex-lg {
+        height: 52px;
+        width: 52px;
+    }
+}
+
+//Iframe size
+.mfp-iframe-holder {
+    .mfp-content {
+        max-width: 1110px;
+    }
+}
+
+//Sticky
+.sticky-sidebar {
+    position: sticky;
+    top: 80px;
+}

@@ -1,0 +1,93 @@
+//
+// switcher.scss
+//
+
+#style-switcher {
+    background: none repeat scroll 0 0 $white;
+    box-shadow: $shadow;
+    left: -90px;
+    position: fixed;
+    top: 17%;
+    width: 90px;
+    z-index: 9999;
+    padding: 10px 5px;
+    .title {
+        font-size: 16px;
+    }
+    .bottom {
+        background: none repeat scroll 0 0 $white;
+        a {
+            &.settings {
+                background: none repeat scroll 0 0 $white;
+                height: 41px;
+                position: absolute;
+                right: -41px;
+                top: 0px;
+                width: 40px;
+                padding: 3px;
+                border-radius: 0 30px 30px 0;
+                i {
+                    margin-left: 4px;
+                }
+            }
+        }
+    }
+    ul {
+        &.pattern {
+            list-style: none outside none;
+            overflow: hidden;
+            padding: 0;
+            border-radius: 0px;
+            li {
+                &.list-inline-item:not(:last-child) {
+                    margin-right: 0px;
+                    margin-bottom: 0;
+                }
+                a {
+                    cursor: pointer;
+                    display: block;
+                    height: 35px;
+                    width: 35px;
+                    border-radius: 50%;
+                    margin: 3px;
+                }
+            }
+            .default {
+                background-color: $primary;
+            }
+            
+            .blue {
+                background-color: $blue;
+            }
+            
+            .light-green {
+                background-color: $light-green;
+            }
+            
+            .red {
+                background-color: $red;
+            }
+            
+            .light-yellow {
+                background-color: $light-yellow;
+            }
+            
+            .purple {
+                background-color: $purple;
+            }
+        }
+    }
+    .t-rtl-light {
+        display: inline-block;
+    }
+    .t-ltr-light,
+    .t-light {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #style-switcher {
+        display: none;
+    }
+}

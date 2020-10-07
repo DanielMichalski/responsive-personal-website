@@ -1,0 +1,114 @@
+//
+// bootstrap-custom.scss
+//
+
+@each $heading,
+$size in $heading-font-sizes {
+    #{$heading} {
+        font-size: $size !important;
+    }
+}
+
+@each $heading,
+$size in $display-font-sizes {
+    .#{$heading} {
+        font-size: $size !important;
+    }
+}
+
+@each $name,
+$value in $colors {
+    .bg-#{$name} {
+        background-color: #{$value} !important;
+    }
+    .text-#{$name} {
+        color: #{$value} !important;
+    }
+    a {
+        &.text-#{$name} {
+            &:hover,
+            &:focus {
+                color: darken($value, 10%) !important;
+            }
+        }
+    }
+}
+
+//li (list inline item)
+.list-inline-item:not(:last-child) {
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+
+// Rounded
+.rounded {
+    border-radius: 7px !important;
+}
+.rounded-top {
+    border-top-left-radius: 7px !important;
+    border-top-right-radius: 7px !important;
+}
+.rounded-left {
+    border-top-left-radius: 7px !important;
+    border-bottom-left-radius: 7px !important;
+}
+.rounded-bottom {
+    border-bottom-left-radius: 7px !important;
+    border-bottom-right-radius: 7px !important;
+}
+.rounded-right {
+    border-top-right-radius: 7px !important;
+    border-bottom-right-radius: 7px !important;
+}
+.rounded-pill {
+    border-radius: 30px !important;
+}
+
+//Border
+.border {
+    border: 1px solid $gray-200 !important;
+}
+.border-top {
+    border-top: 1px solid $gray-200 !important;    
+}
+.border-bottom {
+    border-bottom: 1px solid $gray-200 !important;    
+}
+.border-left {
+    border-left: 1px solid $gray-200 !important;    
+}
+.border-right {
+    border-right: 1px solid $gray-200 !important;    
+}
+
+//modal
+.modal-open {
+    padding-right: 0 !important;
+}
+
+//small
+.small, small {
+    font-size: 85%;
+    font-weight: 500;
+}
+
+//Shadow 
+.shadow {
+    box-shadow: $shadow !important;
+}
+
+//Display
+@media (max-width: 768px) {
+    .display-1 {
+        font-size: 56px !important;
+    }
+    .display-2 {
+        font-size: 50px !important;
+    }
+    .display-3 {
+        font-size: 42px !important;
+    }
+    .display-4 {
+        font-size: 36px !important;
+    }
+}

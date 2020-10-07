@@ -1,0 +1,61 @@
+//
+// service.scss
+//
+.service-wrapper {
+    transition: all 0.2s ease;
+    .content {
+        .title {
+            transition: all 0.2s ease;
+            font-weight: 500;
+        }
+    }
+    &.border-footer {
+        &:after {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 70px;
+            height: 2px;
+            margin: 0 auto;
+            background-color: transparent;
+            transition: all .5s ease-in-out;
+        }
+    }
+    .big-icon {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        opacity: 0.02;
+        .icons {
+            height: 50px;
+            width: 50px;
+            transition: all 0.5s ease;
+        }
+    }
+    &:hover {
+        box-shadow: $shadow-lg;
+        background: $white;
+        transform: translateY(-5px);
+        border-color: transparent !important;
+        &:after {
+            width: 95%;
+            background-color: $primary;
+        }
+        .content {
+            .title {
+                color: $primary;
+            }
+        }
+        .big-icon {
+            z-index: -1;
+            opacity: 0.04;
+            .icons {
+                height: 200px;
+                width: 200px;
+                color: $primary;
+            }
+        }
+    }
+}

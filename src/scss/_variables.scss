@@ -1,0 +1,93 @@
+//
+// variables.scss
+//
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Roboto&display=swap');
+
+// Color variables
+$white:                     #ffffff;
+
+$primary:                   #f89d36;
+$secondary:                 #5a6d90;
+$success:                   #25b865;
+$warning:                   #f9a836;
+$info:                      #44bed0;
+$danger:                    #d6374a;
+$dark:                      #3c4858;
+$black:                     #161c2d;
+$muted:                     #8492a6;
+$light:                     #f9fafd;
+$blue:                      #2d84fb;
+
+// Gray
+$gray-100:                  #f8f9fa;
+$gray-200:                  #e9ecef;
+$gray-300:                  #dee2e6;
+$gray-400:                  #ced4da;
+$gray-500:                  #adb5bd;
+$gray-600:                  #6c757d; 
+$gray-700:                  #495057;
+
+//Custom
+$footer:                    lighten($dark, 5%);
+
+//Color Picker/Switcher
+$purple:                    #662e9b;
+$light-green:               #67c56e;
+$blue:                      #2d84fb;
+$red:                       #dd2020;
+$light-yellow:              #eaba6b;
+
+// Overlay
+$overlay:                   rgba($dark, 0.7);
+$gradident-overlay:         rgba($primary, 0.6);
+$bg-overlay-white:          rgba($white, 0.7);
+$bg-overlay-dark:           rgba($black, 0.75);
+
+// Body Background
+$body-color:                $black;
+$shadow:                    0 0 3px rgba($dark,.15);
+$shadow-lg:                 0 10px 25px rgba($dark, 0.15);
+
+// Base font
+$font-size-base:              14px;
+$menu-font:                   12px;
+
+$font-family-base:            'Poppins', sans-serif;
+$font-family-secondary:       'Poppins', sans-serif;
+
+$colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "success": $success,
+    "warning": $warning,
+    "info": $info,
+    "danger": $danger,
+    "dark": $dark,
+    "muted": $muted,
+    "light": $light,
+    "blue": $blue,
+    "footer": $footer,
+    "purple": $purple,
+    "light-green": $light-green,
+    "red": $red,
+    "light-yellow": $light-yellow,
+);
+
+$heading-font-sizes: (
+    "h1": 42px,
+    "h2": 36px,
+    "h3": 30px,
+    "h4": 24px,
+    "h5": 18px,
+    "h6": 15px,
+);
+
+$display-font-sizes: (
+    "display-1": 80px,
+    "display-2": 72px,
+    "display-3": 64px,
+    "display-4": 56px,
+)

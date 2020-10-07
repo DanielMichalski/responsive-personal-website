@@ -1,0 +1,29 @@
+//
+// testi.scss
+//
+.client-review {
+    padding: 30px 30px 40px 30px;
+    .reviewer {
+        .content {
+            .name {
+                font-weight: 500;
+                font-size: 15px !important;
+            }
+        }
+    }
+}
+.owl-theme {
+    .owl-controls {
+        .owl-page {
+            span {
+                border-radius: 30px;
+                background: transparent;
+                border: 2px solid $primary;
+            }
+        }
+        .owl-page.active span, 
+        &.clickable .owl-page:hover span {
+            background: $primary;
+        }
+    }
+}
