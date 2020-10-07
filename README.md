@@ -1,6 +1,7 @@
 # Personal Website
 
-This is my personal website build with libraries like Bootstrap, Jquery or Particles Js.
+This is my personal website build with libraries like Bootstrap, Jquery, Particles Js etc. \
+The Website is available under: [www.danielmichalski.com](www.danielmichalski.com)
 
 ## Table of Contents
 * [Prerequisites](#prerequisites)
@@ -51,7 +52,13 @@ cd .docker
 Component             | URL                                      
 ---                   | ---                                      
 Website               | [http://localhost/](http://localhost/)                 
-MailHog UI            | [http://localhost:8025/](http://localhost:8025/)                 
+MailHog UI            | [http://localhost:8025/](http://localhost:8025/) 
+
+## Application access
+Component             | URL                                      
+---                   | ---                                      
+Website               | [http://localhost/](http://localhost/)                 
+MailHog UI            | [http://localhost:8025/](http://localhost:8025/)                  
 
 ## Screens
 <p align="center">

@@ -69,6 +69,6 @@ if (mail($address, $e_subject, $comments, $headers)) {
 
 } else {
 
-    echo 'ERROR!';
+    echo 'There was an unexpected error during sending an email!';
 
 }
