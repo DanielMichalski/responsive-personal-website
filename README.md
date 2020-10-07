@@ -49,4 +49,5 @@ cd .docker
 ## Application access
 Component             | URL                                      
 ---                   | ---                                      
-Website               | [http://localhost](http://localhost)                 
+Website               | [http://localhost/](http://localhost/)                 
+MailHog UI            | [http://localhost:8025/](http://localhost:8025/)                 

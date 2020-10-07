@@ -1,21 +1,21 @@
 version: '2'
 
 services:
-  ngnix:
-    image: ${NGINX_IMAGE}
-    container_name: personal-website-ngnix
+  apache-with-php:
+    build: ./apache-with-php
+    container_name: personal-website-apache-with-php
+    volumes:
+      - ../src:/var/www/html/
     ports:
       - "80:80"
-    volumes:
-      - ../src:/src
-      - ../nginx/config/site.conf:/etc/nginx/conf.d/default.conf
     networks:
       - personal-website-network
-  php:
-    image: ${PHP_IMAGE}
-    container_name: personal-website-php
-    volumes:
-      - ../src:/src
+  mailhog:
+    image: mailhog/mailhog:v1.0.0
+    container_name: personal-website-mailhog
+    ports:
+      - "1025:1025"
+      - "8025:8025"
     networks:
       - personal-website-network
 
