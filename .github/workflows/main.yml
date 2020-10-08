@@ -14,4 +14,4 @@ jobs:
           ftp-server: ftp.cluster029.hosting.ovh.net
           ftp-username: tncfuyj
           ftp-password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./src/php
+          local-dir: ./src/php/
