@@ -15,4 +15,4 @@ jobs:
         ftp-username: tncfuyj
         ftp-password: ${{ secrets.FTP_PASSWORD }}
         local-dir: src/
-        remote-root: www/
+        remote-dir: www/
