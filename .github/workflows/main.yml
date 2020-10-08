@@ -16,4 +16,4 @@ jobs:
         ftp-password: ${{ secrets.FTP_PASSWORD }}
         local-dir: src/
         git-ftp-args:
-        - remote-root: www/
+        - --remote-root: www/
