@@ -1,5 +1,7 @@
 # Personal Website
 
+![Publish Website](https://github.com/DanielMichalski/responsive-personal-website/workflows/Publish%20Website/badge.svg)
+
 This is my personal website build with libraries like Bootstrap, Jquery, Particles Js etc. \
 The Website is available under: [www.danielmichalski.com](https://danielmichalski.com)
 
@@ -31,6 +33,7 @@ The Website is available under: [www.danielmichalski.com](https://danielmichalsk
 |[Parallax Js](https://github.com/nk-o/jarallax)                                | Smooth parallax scrolling effect for background images, videos.                                                                                                                       |
 |[Particles Js](https://github.com/VincentGarreau/particles.js)                 | A lightweight JavaScript library for creating particles.                                                                                                                              |
 |[Tweenmax Js](http://greensock.com)                                            | Ultra high-performance, professional-grade animation for the modern web.                                                                                                              |
+|[Live.js](https://livejs.com/)                                                 | Say goodbye to Alt-Tab. Live.js makes sure you're always looking at the latest version of the page you're working on, whether you're writing HTML, CSS or Javascript.                 |                                                                                             |
 
 
 ## Running the application
@@ -61,5 +64,5 @@ Website               | [https://danielmichalski.com](https://danielmichalski.co
 
 ## Screens
 <p align="center">
-<img alt="image1" width="500px" src="https://raw.githubusercontent.com/DanielMichalski/responsive-personal-website/master/src/images/about-website/home.jpg" />
+<img alt="image1" width="500px" src="https://raw.githubusercontent.com/DanielMichalski/responsive-personal-website/master/www/images/about-website/home.jpg" />
 </p>

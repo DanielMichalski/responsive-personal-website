@@ -5,7 +5,7 @@ services:
     build: ./apache-with-php
     container_name: personal-website-apache-with-php
     volumes:
-      - ../src:/var/www/html/
+      - ../www:/var/www/html/
     ports:
       - "80:80"
     networks:
