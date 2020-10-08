@@ -162,6 +162,10 @@ a.text-muted:hover, a.text-muted:focus {
   color: #68788f !important;
 }
 
+p.justify-text {
+  text-align: justify;
+}
+
 .bg-light {
   background-color: #f9fafd !important;
 }
