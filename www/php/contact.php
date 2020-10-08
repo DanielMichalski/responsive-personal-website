@@ -48,13 +48,16 @@ $address = "michalskidaniel2@gmail.com";
 
 // Example, $e_subject = '$name . ' has contacted you via Your Website.';
 
-$e_subject = 'Message from: ' . $name . '. ' . $subject;
+$e_subject = 'Message from: ' . $name . '. Subject: ' . $subject;
 
 $headers = "From: $email" . PHP_EOL;
 $headers .= "Reply-To: $email" . PHP_EOL;
+$headers .= "Return-Path: $email" . PHP_EOL;
 $headers .= "MIME-Version: 1.0" . PHP_EOL;
 $headers .= "Content-type: text/plain; charset=utf-8" . PHP_EOL;
 $headers .= "Content-Transfer-Encoding: quoted-printable" . PHP_EOL;
+$headers .= "X-Priority: 3" . PHP_EOL;
+$headers .= "X-Mailer: PHP". phpversion() . PHP_EOL;
 
 if (mail($address, $e_subject, $comments, $headers)) {
     echo "<fieldset>";
