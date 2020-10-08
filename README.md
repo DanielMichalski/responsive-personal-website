@@ -3,7 +3,7 @@
 ![Publish Website](https://github.com/DanielMichalski/responsive-personal-website/workflows/Publish%20Website/badge.svg)
 
 This is my personal website build with libraries like Bootstrap, Jquery, Particles Js etc. \
-The Website is available under: [www.danielmichalski.com](https://danielmichalski.com)
+The Website is available under: [www.danielmichalski.com](www.danielmichalski.com)
 
 ## Table of Contents
 * [Prerequisites](#prerequisites)
@@ -60,7 +60,7 @@ MailHog UI            | [http://localhost:8025/](http://localhost:8025/)
 ## Production access
 Component             | URL                                      
 ---                   | ---                                      
-Website               | [https://danielmichalski.com](https://danielmichalski.com)                 
+Website               | [www.danielmichalski.com](www.danielmichalski.com)                 
 
 ## Screens
 <p align="center">
