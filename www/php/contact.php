@@ -48,7 +48,8 @@ $address = "michalskidaniel2@gmail.com";
 
 // Example, $e_subject = '$name . ' has contacted you via Your Website.';
 
-$e_subject = 'Message from: ' . $name . '. Subject: ' . $subject;
+$e_subject = 'Personal website message: ' . $subject;
+$comments = $name . ' writes: ' . PHP_EOL . PHP_EOL . "$comments";
 
 $headers = "From: $email" . PHP_EOL;
 $headers .= "Reply-To: $email" . PHP_EOL;
