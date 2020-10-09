@@ -33,6 +33,7 @@ The Website is available under: [www.danielmichalski.com](https://www.danielmich
 |[Parallax Js](https://github.com/nk-o/jarallax)                                | Smooth parallax scrolling effect for background images, videos.                                                                                                                       |
 |[Particles Js](https://github.com/VincentGarreau/particles.js)                 | A lightweight JavaScript library for creating particles.                                                                                                                              |
 |[Tweenmax Js](http://greensock.com)                                            | Ultra high-performance, professional-grade animation for the modern web.                                                                                                              |
+|[Animate On Scroll](https://github.com/michalsnik/aos)                         | Animations during scrolling the page.                                                                                                                                                 |
 
 ## Running the application
 #### On Windows

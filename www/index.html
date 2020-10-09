@@ -20,10 +20,12 @@
     <link href="css/magnific-popup.css" rel="stylesheet" type="text/css"/>
     <!-- Icon -->
     <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css"/>
-    <!-- SLICK SLIDER -->
+    <!-- Slick slider-->
     <link rel="stylesheet" href="css/owl.carousel.min.css"/>
     <link rel="stylesheet" href="css/owl.theme.css"/>
     <link rel="stylesheet" href="css/owl.transitions.css"/>
+    <!-- Animate on scroll -->
+    <link rel="stylesheet" href="css/aos.css"/>
     <!-- Custom Css -->
     <link href="css/style.css" rel="stylesheet" type="text/css" id="theme-opt"/>
     <link href="css/colors/default.css" rel="stylesheet" id="color-opt">
@@ -85,14 +87,30 @@
         <div class="row mt-5 mt-sm-0 justify-content-center">
             <div class="col-lg-12 text-center">
                 <div class="title-heading">
-                    <img src="images/home/hero.png" class="img-fluid rounded-circle" alt="Daniel Michalski">
-                    <h1 class="heading text-primary mt-3">Daniel Michalski</h1>
-                    <h6 class="sub-title text-light">I am a Passionate <span class="simple-text-rotate text-primary">Full-Stack Web Developer</span>
-                    </h6>
-                    <div class="mt-4">
-                        <a href="#contact" class="btn btn-primary rounded mr-2 mb-2 mouse-down">Contact me</a>
-                        <a href="#resume"
-                           class="btn btn-outline-primary rounded mb-2 mouse-down">Check my Resume</a>
+                    <div data-aos="fade"
+                         data-aos-offset="200"
+                         data-aos-delay="50"
+                         data-aos-duration="1000"
+                         data-aos-easing="ease-in-out"
+                         data-aos-mirror="true"
+                         data-aos-once="false"
+                         data-aos-anchor-placement="top-center">
+                        <img src="images/home/hero.png" class="img-fluid rounded-circle" alt="Daniel Michalski">
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                        <h1 class="heading text-primary mt-3">Daniel Michalski</h1>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1400">
+                        <h6 class="sub-title text-light">I am a Passionate <span
+                                class="simple-text-rotate text-primary">Full-Stack Web Developer</span>
+                        </h6>
+                    </div>
+                    <div data-aos="fade" data-aos-duration="1200" data-aos-delay="700">
+                        <div class="mt-4">
+                            <a href="#contact" class="btn btn-primary rounded mr-2 mb-2 mouse-down">Contact me</a>
+                            <a href="#resume"
+                               class="btn btn-outline-primary rounded mb-2 mouse-down">Check my Resume</a>
+                        </div>
                     </div>
                 </div>
             </div><!--end col-->
@@ -151,104 +169,135 @@
 
         <div class="row">
             <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
-                <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
-                    <div class="hobbies d-flex align-items-center">
-                        <div class="text-center rounded-pill mr-4">
-                            <i data-feather="monitor" class="icon fea icon-md-sm"></i>
-                        </div>
-                        <div class="content">
-                            <h6 class="title mb-0">Developing</h6>
+                <div data-aos="fade-up" data-aos-duration="500">
+                    <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
+                        <div class="hobbies d-flex align-items-center">
+                            <div class="text-center rounded-pill mr-4">
+                                <i data-feather="monitor" class="icon fea icon-md-sm"></i>
+                            </div>
+
+                            <div class="content">
+                                <h6 class="title mb-0">Developing</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div><!--end col-->
 
             <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
-                <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
-                    <div class="hobbies d-flex align-items-center">
-                        <div class="text-center rounded-pill mr-4">
-                            <i data-feather="wind" class="icon fea icon-md-sm"></i>
-                        </div>
-                        <div class="content">
-                            <h6 class="title mb-0">Windsurfing</h6>
-                        </div>
-                    </div>
-                </div>
-            </div><!--end col-->
-
-            <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
-                <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
-                    <div class="hobbies d-flex align-items-center">
-                        <div class="text-center rounded-pill mr-4">
-                            <i data-feather="map" class="icon fea icon-md-sm"></i>
-                        </div>
-                        <div class="content">
-                            <h6 class="title mb-0">MTB</h6>
+                <div data-aos="fade-up"
+                     data-aos-delay="100"
+                     data-aos-duration="500">
+                    <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
+                        <div class="hobbies d-flex align-items-center">
+                            <div class="text-center rounded-pill mr-4">
+                                <i data-feather="wind" class="icon fea icon-md-sm"></i>
+                            </div>
+                            <div class="content">
+                                <h6 class="title mb-0">Windsurfing</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div><!--end col-->
 
             <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
-                <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
-                    <div class="hobbies d-flex align-items-center">
-                        <div class="text-center rounded-pill mr-4">
-                            <i data-feather="user-check" class="icon fea icon-md-sm"></i>
-                        </div>
-                        <div class="content">
-                            <h6 class="title mb-0">Martial arts</h6>
-                        </div>
-                    </div>
-                </div>
-            </div><!--end col-->
-
-            <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
-                <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
-                    <div class="hobbies d-flex align-items-center">
-                        <div class="text-center rounded-pill mr-4">
-                            <i data-feather="cloud-snow" class="icon fea icon-md-sm"></i>
-                        </div>
-                        <div class="content">
-                            <h6 class="title mb-0">Snowboard</h6>
+                <div data-aos="fade-up"
+                     data-aos-delay="200"
+                     data-aos-duration="500">
+                    <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
+                        <div class="hobbies d-flex align-items-center">
+                            <div class="text-center rounded-pill mr-4">
+                                <i data-feather="map" class="icon fea icon-md-sm"></i>
+                            </div>
+                            <div class="content">
+                                <h6 class="title mb-0">MTB</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div><!--end col-->
 
             <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
-                <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
-                    <div class="hobbies d-flex align-items-center">
-                        <div class="text-center rounded-pill mr-4">
-                            <i data-feather="hexagon" class="icon fea icon-md-sm"></i>
-                        </div>
-                        <div class="content">
-                            <h6 class="title mb-0">Gym</h6>
-                        </div>
-                    </div>
-                </div>
-            </div><!--end col-->
-
-            <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
-                <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
-                    <div class="hobbies d-flex align-items-center">
-                        <div class="text-center rounded-pill mr-4">
-                            <i data-feather="box" class="icon fea icon-md-sm"></i>
-                        </div>
-                        <div class="content">
-                            <h6 class="title mb-0">Games</h6>
+                <div data-aos="fade-up"
+                     data-aos-delay="300"
+                     data-aos-duration="500">
+                    <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
+                        <div class="hobbies d-flex align-items-center">
+                            <div class="text-center rounded-pill mr-4">
+                                <i data-feather="user-check" class="icon fea icon-md-sm"></i>
+                            </div>
+                            <div class="content">
+                                <h6 class="title mb-0">Martial arts</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div><!--end col-->
 
             <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
-                <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
-                    <div class="hobbies d-flex align-items-center">
-                        <div class="text-center rounded-pill mr-4">
-                            <i data-feather="target" class="icon fea icon-md-sm"></i>
+                <div data-aos="fade-up"
+                     data-aos-delay="400"
+                     data-aos-duration="500">
+                    <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
+                        <div class="hobbies d-flex align-items-center">
+                            <div class="text-center rounded-pill mr-4">
+                                <i data-feather="cloud-snow" class="icon fea icon-md-sm"></i>
+                            </div>
+                            <div class="content">
+                                <h6 class="title mb-0">Snowboard</h6>
+                            </div>
                         </div>
-                        <div class="content">
-                            <h6 class="title mb-0">Other sports</h6>
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
+                <div data-aos="fade-up"
+                     data-aos-delay="500"
+                     data-aos-duration="500">
+                    <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
+                        <div class="hobbies d-flex align-items-center">
+                            <div class="text-center rounded-pill mr-4">
+                                <i data-feather="hexagon" class="icon fea icon-md-sm"></i>
+                            </div>
+                            <div class="content">
+                                <h6 class="title mb-0">Gym</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
+                <div data-aos="fade-up"
+                     data-aos-delay="600"
+                     data-aos-duration="500">
+                    <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
+                        <div class="hobbies d-flex align-items-center">
+                            <div class="text-center rounded-pill mr-4">
+                                <i data-feather="box" class="icon fea icon-md-sm"></i>
+                            </div>
+                            <div class="content">
+                                <h6 class="title mb-0">Games</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
+                <div data-aos="fade-up"
+                     data-aos-delay="700"
+                     data-aos-duration="500">
+                    <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
+                        <div class="hobbies d-flex align-items-center">
+                            <div class="text-center rounded-pill mr-4">
+                                <i data-feather="target" class="icon fea icon-md-sm"></i>
+                            </div>
+                            <div class="content">
+                                <h6 class="title mb-0">Other sports</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -322,108 +371,123 @@
         </div><!--end row-->
 
         <div class="row">
-            <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
-                <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5">
-                    <div class="icon text-primary">
-                        <i data-feather="airplay" class="fea icon-md"></i>
-                    </div>
-                    <div class="content mt-4">
-                        <h5 class="title">Complex applications</h5>
-                        <p class="text-muted mt-3 mb-0">
-                            8+ years commercial experience of hands-on working on large complex applications.
-                        </p>
 
+            <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                <div data-aos="fade-up" data-aos-duration="600">
+                    <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5">
+                        <div class="icon text-primary">
+                            <i data-feather="airplay" class="fea icon-md"></i>
+                        </div>
+                        <div class="content mt-4">
+                            <h5 class="title">Complex applications</h5>
+                            <p class="text-muted mt-3 mb-0">
+                                8+ years commercial experience of hands-on working on large complex applications.
+                            </p>
+
+                        </div>
+                        <div class="big-icon">
+                            <i data-feather="airplay" class="fea icons"></i>
+                        </div>
                     </div>
-                    <div class="big-icon">
-                        <i data-feather="airplay" class="fea icons"></i>
+                </div><!--end col-->
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                <div data-aos="fade-up" data-aos-duration="600">
+                    <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5">
+                        <div class="icon text-primary">
+                            <i data-feather="aperture" class="fea icon-md"></i>
+                        </div>
+                        <div class="content mt-4">
+                            <h5 class="title">Technology stack</h5>
+                            <p class="text-muted mt-3 mb-0">
+                                General broad familiarity with a variety of technologies covering the full application
+                                stack.
+                            </p>
+                        </div>
+                        <div class="big-icon">
+                            <i data-feather="aperture" class="fea icons"></i>
+                        </div>
                     </div>
                 </div>
             </div><!--end col-->
 
             <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
-                <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5">
-                    <div class="icon text-primary">
-                        <i data-feather="aperture" class="fea icon-md"></i>
-                    </div>
-                    <div class="content mt-4">
-                        <h5 class="title">Technology stack</h5>
-                        <p class="text-muted mt-3 mb-0">
-                            General broad familiarity with a variety of technologies covering the full application
-                            stack.
-                        </p>
-                    </div>
-                    <div class="big-icon">
-                        <i data-feather="aperture" class="fea icons"></i>
-                    </div>
-                </div>
-            </div><!--end col-->
-
-            <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
-                <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5">
-                    <div class="icon text-primary">
-                        <i data-feather="skip-back" class="fea icon-md"></i>
-                    </div>
-                    <div class="content mt-4">
-                        <h5 class="title">Backend languages</h5>
-                        <p class="text-muted mt-3 mb-0">
-                            Familiarity with most of JVM languages and frameworks like Java, Kotlin, Groovy, Scala etc.
-                        </p>
-                    </div>
-                    <div class="big-icon">
-                        <i data-feather="camera" class="fea icons"></i>
+                <div data-aos="fade-up" data-aos-duration="600">
+                    <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5">
+                        <div class="icon text-primary">
+                            <i data-feather="skip-back" class="fea icon-md"></i>
+                        </div>
+                        <div class="content mt-4">
+                            <h5 class="title">Backend languages</h5>
+                            <p class="text-muted mt-3 mb-0">
+                                Familiarity with most of JVM languages and frameworks like Java, Kotlin, Groovy, Scala
+                                etc.
+                            </p>
+                        </div>
+                        <div class="big-icon">
+                            <i data-feather="camera" class="fea icons"></i>
+                        </div>
                     </div>
                 </div>
             </div><!--end col-->
 
             <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
-                <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5">
-                    <div class="icon text-primary">
-                        <i data-feather="skip-forward" class="fea icon-md"></i>
-                    </div>
-                    <div class="content mt-4">
-                        <h5 class="title">Frontend frameworks</h5>
-                        <p class="text-muted mt-3 mb-0">
-                            Familiarity with Frontend frameworks and libraries like Angular, Angular Material, Ionic,
-                            React etc.
-                        </p>
-                    </div>
-                    <div class="big-icon">
-                        <i data-feather="compass" class="fea icons"></i>
-                    </div>
-                </div>
-            </div><!--end col-->
-
-            <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
-                <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5">
-                    <div class="icon text-primary">
-                        <i data-feather="settings" class="fea icon-md"></i>
-                    </div>
-                    <div class="content mt-4">
-                        <h5 class="title">Development lifecycle</h5>
-                        <p class="text-muted mt-3 mb-0">
-                            Experience with the development lifecycle and scrum or kanban task management process.
-                        </p>
-                    </div>
-                    <div class="big-icon">
-                        <i data-feather="settings" class="fea icons"></i>
+                <div data-aos="fade-up" data-aos-duration="600">
+                    <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5">
+                        <div class="icon text-primary">
+                            <i data-feather="skip-forward" class="fea icon-md"></i>
+                        </div>
+                        <div class="content mt-4">
+                            <h5 class="title">Frontend frameworks</h5>
+                            <p class="text-muted mt-3 mb-0">
+                                Familiarity with Frontend frameworks and libraries like Angular, Angular Material,
+                                Ionic,
+                                React etc.
+                            </p>
+                        </div>
+                        <div class="big-icon">
+                            <i data-feather="compass" class="fea icons"></i>
+                        </div>
                     </div>
                 </div>
             </div><!--end col-->
 
             <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
-                <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5">
-                    <div class="icon text-primary">
-                        <i data-feather="watch" class="fea icon-md"></i>
+                <div data-aos="fade-up" data-aos-duration="600">
+                    <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5">
+                        <div class="icon text-primary">
+                            <i data-feather="settings" class="fea icon-md"></i>
+                        </div>
+                        <div class="content mt-4">
+                            <h5 class="title">Development lifecycle</h5>
+                            <p class="text-muted mt-3 mb-0">
+                                Experience with the development lifecycle and scrum or kanban task management process.
+                            </p>
+                        </div>
+                        <div class="big-icon">
+                            <i data-feather="settings" class="fea icons"></i>
+                        </div>
                     </div>
-                    <div class="content mt-4">
-                        <h5 class="title">Mentoring</h5>
-                        <p class="text-muted mt-3 mb-0">
-                            Ability to quickly learn the job (with mentoring from others) and can mentor junior
-                            engineers.
-                        </p>
-                    </div>
-                    <div class="big-icon">
-                        <i data-feather="watch" class="fea icons"></i>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                <div data-aos="fade-up" data-aos-duration="600">
+                    <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5">
+                        <div class="icon text-primary">
+                            <i data-feather="watch" class="fea icon-md"></i>
+                        </div>
+                        <div class="content mt-4">
+                            <h5 class="title">Mentoring</h5>
+                            <p class="text-muted mt-3 mb-0">
+                                Ability to quickly learn the job (with mentoring from others) and can mentor junior
+                                engineers.
+                            </p>
+                        </div>
+                        <div class="big-icon">
+                            <i data-feather="watch" class="fea icons"></i>
+                        </div>
                     </div>
                 </div>
             </div><!--end col-->
@@ -460,31 +524,36 @@
                                 </div>
                             </div><!--end col-->
                             <div class="col-lg-6 col-md-6 col-sm-6">
-                                <div class="event event-description-right rounded p-4 border float-left text-left">
-                                    <h5 class="title mb-0 text-capitalize">Technical Lead</h5>
-                                    <small class="company">Marviq</small>
-                                    <div class="timeline-subtitle mt-3 mb-0 text-muted">
-                                        Web and Mobile platform for frontline workers. <br/><br/>
+                                <div data-aos="fade-right" data-aos-duration="1000">
+                                    <div class="event event-description-right rounded p-4 border float-left text-left">
+                                        <h5 class="title mb-0 text-capitalize">Technical Lead</h5>
+                                        <small class="company">Marviq</small>
+                                        <div class="timeline-subtitle mt-3 mb-0 text-muted">
+                                            Web and Mobile platform for frontline workers. <br/><br/>
 
-                                        Key responsibilities:
-                                        <ul>
-                                            <li>Lead a team of the developers;</li>
-                                            <li>Transform requirements into user stories;</li>
-                                            <li>Implement the best practices and coding standards of the project;</li>
-                                            <li>Research and select proper Backend and Frontend technology stack;</li>
-                                            <li>Design of API specification and database structure;</li>
-                                            <li>Implement Backend and Frontend applications;</li>
-                                            <li>Write unit and integration tests.</li>
-                                        </ul>
+                                            Key responsibilities:
+                                            <ul>
+                                                <li>Lead a team of the developers;</li>
+                                                <li>Transform requirements into user stories;</li>
+                                                <li>Implement the best practices and coding standards of the project;
+                                                </li>
+                                                <li>Research and select proper Backend and Frontend technology stack;
+                                                </li>
+                                                <li>Design of API specification and database structure;</li>
+                                                <li>Implement Backend and Frontend applications;</li>
+                                                <li>Write unit and integration tests.</li>
+                                            </ul>
 
-                                        <p>
-                                            Backend technologies: Java 11, Spring Boot 2, Hibernate 5, Spock, Liquibase,
-                                            MySQL, Docker
-                                        </p>
-                                        <p>
-                                            Frontend technologies: Ionic 5, Angular 9, Angular Material 9, Angular
-                                            Flex-Layout 9
-                                        </p>
+                                            <p>
+                                                Backend technologies: Java 11, Spring Boot 2, Hibernate 5, Spock,
+                                                Liquibase,
+                                                MySQL, Docker
+                                            </p>
+                                            <p>
+                                                Frontend technologies: Ionic 5, Angular 9, Angular Material 9, Angular
+                                                Flex-Layout 9
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div><!--end col-->
@@ -494,27 +563,29 @@
                     <div class="timeline-item mt-4">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-6 order-sm-1 order-2">
-                                <div class="event event-description-left rounded p-4 border float-left text-left">
-                                    <h5 class="title mb-0 text-capitalize">Senior Full-Stack Developer</h5>
-                                    <small class="company">Aviva Poland</small>
-                                    <div class="timeline-subtitle mt-3 mb-0 text-muted">
-                                        Web platform for a British insurance company - Aviva. <br/><br/>
+                                <div data-aos="fade-left" data-aos-duration="1000">
+                                    <div class="event event-description-left rounded p-4 border float-left text-left">
+                                        <h5 class="title mb-0 text-capitalize">Senior Full-Stack Developer</h5>
+                                        <small class="company">Aviva Poland</small>
+                                        <div class="timeline-subtitle mt-3 mb-0 text-muted">
+                                            Web platform for a British insurance company - Aviva. <br/><br/>
 
-                                        Key responsibilities:
-                                        <ul>
-                                            <li>Implement Backend in Java with Spring and Hibernate and Frontend in
-                                                Angular;
-                                            </li>
-                                            <li>Transform requirements into user stories;</li>
-                                            <li>Take part in software and architectural development activities.</li>
-                                        </ul>
-                                        <p>
-                                            Backend technologies: Java 8, Spring Boot, Hibernate, JBoss, Gradle,
-                                            PostgreSQL
-                                        </p>
-                                        <p>
-                                            Frontend technologies: Angular 6, Angular Material, Angular Flex-Layout
-                                        </p>
+                                            Key responsibilities:
+                                            <ul>
+                                                <li>Implement Backend in Java with Spring and Hibernate and Frontend in
+                                                    Angular;
+                                                </li>
+                                                <li>Transform requirements into user stories;</li>
+                                                <li>Take part in software and architectural development activities.</li>
+                                            </ul>
+                                            <p>
+                                                Backend technologies: Java 8, Spring Boot, Hibernate, JBoss, Gradle,
+                                                PostgreSQL
+                                            </p>
+                                            <p>
+                                                Frontend technologies: Angular 6, Angular Material, Angular Flex-Layout
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div><!--end col-->
@@ -534,27 +605,30 @@
                                 </div>
                             </div><!--end col-->
                             <div class="col-lg-6 col-md-6 col-sm-6">
-                                <div class="event event-description-right rounded p-4 border float-left text-left">
-                                    <h5 class="title mb-0 text-capitalize">Senior Full-Stack Developer</h5>
-                                    <small class="company">Apreel</small>
-                                    <div class="timeline-subtitle mt-3 mb-0 text-muted">
-                                        Web platform for a Polish insurance company - Warta. <br/><br/>
+                                <div data-aos="fade-right" data-aos-duration="1000">
+                                    <div class="event event-description-right rounded p-4 border float-left text-left">
+                                        <h5 class="title mb-0 text-capitalize">Senior Full-Stack Developer</h5>
+                                        <small class="company">Apreel</small>
+                                        <div class="timeline-subtitle mt-3 mb-0 text-muted">
+                                            Web platform for a Polish insurance company - Warta. <br/><br/>
 
-                                        Key responsibilities:
-                                        <ul>
-                                            <li>Implement Backend in Kotlin with Spring and Hibernate and Frontend in
-                                                Angular;
-                                            </li>
-                                            <li>Design of database structure;</li>
-                                            <li>Write unit and integration tests.</li>
-                                        </ul>
+                                            Key responsibilities:
+                                            <ul>
+                                                <li>Implement Backend in Kotlin with Spring and Hibernate and Frontend
+                                                    in
+                                                    Angular;
+                                                </li>
+                                                <li>Design of database structure;</li>
+                                                <li>Write unit and integration tests.</li>
+                                            </ul>
 
-                                        <p>
-                                            Backend technologies: Kotlin, Spring Boot, Hibernate, IBM Informix
-                                        </p>
-                                        <p>
-                                            Frontend technologies: AngularJS, Angular Material
-                                        </p>
+                                            <p>
+                                                Backend technologies: Kotlin, Spring Boot, Hibernate, IBM Informix
+                                            </p>
+                                            <p>
+                                                Frontend technologies: AngularJS, Angular Material
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div><!--end col-->
@@ -564,18 +638,21 @@
                     <div class="timeline-item mt-4">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-6 order-sm-1 order-2">
-                                <div class="event event-description-left rounded p-4 border float-left text-left">
-                                    <h5 class="title mb-0 text-capitalize">Full-Stack Developer</h5>
-                                    <small class="company">Warta</small>
-                                    <div class="timeline-subtitle mt-3 mb-0 text-muted">
-                                        Mobile application for a Polish insurance company - Warta.<br/><br/>
+                                <div data-aos="fade-left" data-aos-duration="1000">
+                                    <div class="event event-description-left rounded p-4 border float-left text-left">
+                                        <h5 class="title mb-0 text-capitalize">Full-Stack Developer</h5>
+                                        <small class="company">Warta</small>
+                                        <div class="timeline-subtitle mt-3 mb-0 text-muted">
+                                            Mobile application for a Polish insurance company - Warta.<br/><br/>
 
-                                        Key responsibilities:
-                                        <ul>
-                                            <li>Implement Backend in Spring REST;</li>
-                                            <li>Write unit and integration tests.</li>
-                                        </ul>
-                                        <p>Technologies: Java 8, Spring Boot, Hibernate, Apache Tomcat, PostgreSQL</p>
+                                            Key responsibilities:
+                                            <ul>
+                                                <li>Implement Backend in Spring REST;</li>
+                                                <li>Write unit and integration tests.</li>
+                                            </ul>
+                                            <p>Technologies: Java 8, Spring Boot, Hibernate, Apache Tomcat,
+                                                PostgreSQL</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div><!--end col-->
@@ -595,21 +672,23 @@
                                 </div>
                             </div><!--end col-->
                             <div class="col-lg-6 col-md-6 col-sm-6">
-                                <div class="event event-description-right rounded p-4 border float-left text-left">
-                                    <h5 class="title mb-0 text-capitalize">Java Software Developer</h5>
-                                    <small class="company">Infovide-Matrix</small>
-                                    <div class="timeline-subtitle mt-3 mb-0 text-muted">
-                                        Web platform for an insurance company - Gothaer.<br/><br/>
+                                <div data-aos="fade-right" data-aos-duration="1000">
+                                    <div class="event event-description-right rounded p-4 border float-left text-left">
+                                        <h5 class="title mb-0 text-capitalize">Java Software Developer</h5>
+                                        <small class="company">Infovide-Matrix</small>
+                                        <div class="timeline-subtitle mt-3 mb-0 text-muted">
+                                            Web platform for an insurance company - Gothaer.<br/><br/>
 
-                                        Key responsibilities:
-                                        <ul>
-                                            <li>Implement Backend and Frontend functionalities;</li>
-                                            <li>Write unit and integration tests;</li>
-                                            <li>Take part in software and architectural development activities.</li>
-                                        </ul>
+                                            Key responsibilities:
+                                            <ul>
+                                                <li>Implement Backend and Frontend functionalities;</li>
+                                                <li>Write unit and integration tests;</li>
+                                                <li>Take part in software and architectural development activities.</li>
+                                            </ul>
 
-                                        <p>Backend technologies: Java 7, Spring, Hibernate, Oracle, WebSphere</p>
-                                        <p>Frontend technologies: Apache Struts, Apache Tiles</p>
+                                            <p>Backend technologies: Java 7, Spring, Hibernate, Oracle, WebSphere</p>
+                                            <p>Frontend technologies: Apache Struts, Apache Tiles</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div><!--end col-->
@@ -619,19 +698,23 @@
                     <div class="timeline-item mt-4">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-6 order-sm-1 order-2">
-                                <div class="event event-description-left rounded p-4 border float-left text-left">
-                                    <h5 class="title mb-0 text-capitalize">Java Software Developer</h5>
-                                    <small class="company">COMP Centrum Innowacji</small>
-                                    <div class="timeline-subtitle mt-3 mb-0 text-muted">
-                                        Self-service machine for Polish Post - Poczta Polska.<br/><br/>
+                                <div data-aos="fade-left" data-aos-duration="1000">
+                                    <div class="event event-description-left rounded p-4 border float-left text-left">
+                                        <h5 class="title mb-0 text-capitalize">Java Software Developer</h5>
+                                        <small class="company">COMP Centrum Innowacji</small>
+                                        <div class="timeline-subtitle mt-3 mb-0 text-muted">
+                                            Self-service machine for Polish Post - Poczta Polska.<br/><br/>
 
-                                        Key responsibilities:
-                                        <ul>
-                                            <li>Implement Backend and Frontend in JavaFX and Spring;</li>
-                                            <li>Write unit and integration tests;</li>
-                                            <li>Identify and fix production and non-production application issues.</li>
-                                        </ul>
-                                        <p>Technologies: Java FX, Spring, MyBatis, PostgreSQL, WebServices, RMI, JNA</p>
+                                            Key responsibilities:
+                                            <ul>
+                                                <li>Implement Backend and Frontend in JavaFX and Spring;</li>
+                                                <li>Write unit and integration tests;</li>
+                                                <li>Identify and fix production and non-production application issues.
+                                                </li>
+                                            </ul>
+                                            <p>Technologies: Java FX, Spring, MyBatis, PostgreSQL, WebServices, RMI,
+                                                JNA</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div><!--end col-->
@@ -651,22 +734,25 @@
                                 </div>
                             </div><!--end col-->
                             <div class="col-lg-6 col-md-6 col-sm-6">
-                                <div class="event event-description-right rounded p-4 border float-left text-left">
-                                    <h5 class="title mb-0 text-capitalize">Java Software Developer</h5>
-                                    <small class="company">Luckyit</small>
-                                    <div class="timeline-subtitle mt-3 mb-0 text-muted">
-                                        Driver's license test application in categories: A, B, and C. <br/><br/>
+                                <div data-aos="fade-right" data-aos-duration="1000">
+                                    <div class="event event-description-right rounded p-4 border float-left text-left">
+                                        <h5 class="title mb-0 text-capitalize">Java Software Developer</h5>
+                                        <small class="company">Luckyit</small>
+                                        <div class="timeline-subtitle mt-3 mb-0 text-muted">
+                                            Driver's license test application in categories: A, B, and C. <br/><br/>
 
-                                        Key responsibilities:
-                                        <ul>
-                                            <li>Design, implement, and maintain a Java application that allows preparing
-                                                for a driving license test;
-                                            </li>
-                                            <li>Transform requirements into stipulations;</li>
-                                            <li>Design of database structure.</li>
-                                        </ul>
+                                            Key responsibilities:
+                                            <ul>
+                                                <li>Design, implement, and maintain a Java application that allows
+                                                    preparing
+                                                    for a driving license test;
+                                                </li>
+                                                <li>Transform requirements into stipulations;</li>
+                                                <li>Design of database structure.</li>
+                                            </ul>
 
-                                        <p>Technologies: Java, Swing, Maven, VLCJ, iText, Jasypt</p>
+                                            <p>Technologies: Java, Swing, Maven, VLCJ, iText, Jasypt</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div><!--end col-->
@@ -691,11 +777,14 @@
                 <div class="cta-full-img-box">
                     <div class="row justify-content-center">
                         <div class="col-12 text-center">
-                            <div class="section-title">
-                                <h4 class="title title-line text-uppercase mb-4 pb-4">Work Expertise</h4>
-                                <p class="text-muted mx-auto para-desc mb-0">Obviously I am a Full-Stack Web Developer.
-                                    Experienced
-                                    with all stages of the development cycle for dynamic web projects.</p>
+                            <div data-aos="fade-up" data-aos-duration="800">
+                                <div class="section-title">
+                                    <h4 class="title title-line text-uppercase mb-4 pb-4">Work Expertise</h4>
+                                    <p class="text-muted mx-auto para-desc mb-0">Obviously I am a Full-Stack Web
+                                        Developer.
+                                        Experienced
+                                        with all stages of the development cycle for dynamic web projects.</p>
+                                </div>
                             </div>
                         </div><!--end col-->
                     </div><!--end row-->
@@ -902,10 +991,12 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 text-center">
-                <div class="section-title">
-                    <h4 class="title title-line text-uppercase mb-4 pb-4">Contact Me</h4>
-                    <p class="text-muted mx-auto para-desc mb-0">If you have got any questions, feel free to contact
-                        me.</p>
+                <div data-aos="fade-up" data-aos-duration="800">
+                    <div class="section-title">
+                        <h4 class="title title-line text-uppercase mb-4 pb-4">Contact Me</h4>
+                        <p class="text-muted mx-auto para-desc mb-0">If you have got any questions, feel free to contact
+                            me.</p>
+                    </div>
                 </div>
             </div><!--end col-->
         </div><!--end row-->
@@ -1102,6 +1193,9 @@
 <script src="js/switcher.js"></script>
 <!-- Main Js -->
 <script src="js/app.js"></script>
+<!-- Animate on Scroll-->
+<script src="js/aos.js"></script>
+<script>AOS.init();</script>
 </body>
 
 </html>
