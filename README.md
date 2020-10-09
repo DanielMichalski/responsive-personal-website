@@ -1,6 +1,6 @@
 # Personal Website
 
-![Publish Website](https://github.com/DanielMichalski/responsive-personal-website/workflows/Publish%20Website/badge.svg)
+[![Publish Website](https://github.com/DanielMichalski/responsive-personal-website/workflows/Publish%20Website/badge.svg)](https://github.com/DanielMichalski/responsive-personal-website/actions?query=workflow%3A%22Publish+Website%22)
 
 This is my personal website build with libraries like Bootstrap, Jquery, Particles Js etc. \
 The Website is available under: [www.danielmichalski.com](https://www.danielmichalski.com/)
