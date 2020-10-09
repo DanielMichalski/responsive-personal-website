@@ -33,8 +33,6 @@ The Website is available under: [www.danielmichalski.com](https://www.danielmich
 |[Parallax Js](https://github.com/nk-o/jarallax)                                | Smooth parallax scrolling effect for background images, videos.                                                                                                                       |
 |[Particles Js](https://github.com/VincentGarreau/particles.js)                 | A lightweight JavaScript library for creating particles.                                                                                                                              |
 |[Tweenmax Js](http://greensock.com)                                            | Ultra high-performance, professional-grade animation for the modern web.                                                                                                              |
-|[Live.js](https://livejs.com/)                                                 | Say goodbye to Alt-Tab. Live.js makes sure you're always looking at the latest version of the page you're working on, whether you're writing HTML, CSS or Javascript.                 |                                                                                             |
-
 
 ## Running the application
 #### On Windows
