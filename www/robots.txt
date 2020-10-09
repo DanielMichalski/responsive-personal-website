@@ -1,2 +1,3 @@
+Sitemap: https://www.danielmichalski.com/sitemap.xml
 User-agent: *
 Disallow:
