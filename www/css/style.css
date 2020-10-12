@@ -1398,9 +1398,9 @@ p.justify-text {
   height: auto;
 }
 
-@media (min-width: 200px) and (max-width: 767px) {
+@media (max-width: 1200px) {
   .bg-home, .bg-half {
-    padding: 150px 0;
+    padding: 100px 0;
     height: auto;
   }
 }
