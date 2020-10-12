@@ -23,4 +23,8 @@ a {
 p {
     letter-spacing: 0.03em;
     line-height: 1.8;
+
+    &.justify-text {
+        text-align: justify;
+    }
 }

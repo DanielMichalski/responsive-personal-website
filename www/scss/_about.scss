@@ -5,12 +5,17 @@
     &:before {
         content: '';
         position: absolute;
-        top: 0px;
-        right: 3%;
-        left: 3%;
-        bottom: 0%;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
         border-radius: 7px;
         border: 16px solid $gray-200;
+    }
+
+    img.hero {
+        padding-bottom: 30px;
+        padding-right: 30px;
     }
 }
 
