@@ -1,0 +1,1 @@
+$(".player").mb_YTPlayer();

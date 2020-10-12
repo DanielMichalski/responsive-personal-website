@@ -13,7 +13,7 @@
 
     <link rel="canonical" href="https://www.danielmichalski.com">
     <!-- Favicon -->
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="images/icon/favicon.ico">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <!-- Magnific -->
@@ -79,7 +79,7 @@
 <!-- Navbar End -->
 
 <!-- HOME START-->
-<section class="bg-home d-table w-100" style="background-image:url('images/home/video.jpg')" id="home">
+<section class="bg-home d-table w-100" style="background-image:url('images/video.jpg')" id="home">
     <div class="bg-overlay bg-over-image"></div>
     <a id="video" class="player"
        data-property="{videoURL:'https://www.youtube.com/watch?v=m5wisWO8TSA',containment:'#home', showControls:false, autoPlay:true, loop:true, mute:true, startAt:0, opacity:1, optimizeDisplay:true, useOnMobile:false, realfullscreen:true}"></a>
@@ -93,7 +93,7 @@
                          data-aos-mirror="true"
                          data-aos-once="false"
                          data-aos-anchor-placement="top-bottom">
-                        <img src="images/home/hero.png" class="img-fluid rounded-circle" alt="Daniel Michalski">
+                        <img src="images/hero.png" class="img-fluid rounded-circle" alt="Daniel Michalski">
                     </div>
                     <div data-aos="fade-up" data-aos-duration="1100" data-aos-delay="700" data-aos-mirror="true"
                          data-aos-once="false" data-aos-anchor-placement="top-bottom">
@@ -129,7 +129,7 @@
         <div class="row align-items-center">
             <div class="col-lg-5 col-md-5">
                 <div class="about-hero">
-                    <img src="images/hero.png" class="img-fluid mx-auto d-block about-tween position-relative hero"
+                    <img src="images/hero-transparent.png" class="img-fluid mx-auto d-block about-tween position-relative hero"
                          alt="Daniel Michalski">
                 </div>
             </div><!--end col-->
@@ -772,11 +772,9 @@
 
 <!-- Skill & CTA START -->
 <section class="cta-full section border-top" id="expertise">
-    <div class="container-fluid">
-        <div class="row position-relative">
-            <div class="col-lg-4 padding-less img" style="background-image:url('images/expertise.png')"
-                 data-jarallax='{"speed": 0.5}'></div><!-- end col -->
-            <div class="col-lg-8 offset-lg-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 col-md-12 col-sm-12 offset-lg-5 offset-md-0 offset-sm-0">
                 <div class="cta-full-img-box">
                     <div class="row justify-content-center">
                         <div class="col-12 text-center">
@@ -791,7 +789,14 @@
                             </div>
                         </div><!--end col-->
                     </div><!--end row-->
-
+                </div> <!-- end about detail -->
+            </div> <!-- end col -->
+        </div><!--end row-->
+        <div class="row">
+            <div class="col-lg-5 col-md-12 col-sm-12 align-self-center text-center">
+                <img src="images/expertise.png" class="expertise-img" alt="Java expertise">
+            </div><!-- end col -->
+            <div class="col-lg-7 col-md-12 col-sm-12">
                     <div class="row align-items-center">
                         <div class="col-lg-3 col-md-4 col-12">
                             <ul class="nav nav-pills flex-column px-0" id="pills-tab" role="tablist">
@@ -1163,43 +1168,43 @@
 <!-- Back to top -->
 
 <!-- javascript -->
-<script src="js/jquery-3.5.1.min.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/scrollspy.min.js"></script>
+<script src="js/jquery/jquery-3.5.1.min.js"></script>
+<script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="js/jquery/jquery.easing.min.js"></script>
+<script src="js/scrollspy/scrollspy.min.js"></script>
 <!-- SLIDER -->
-<script src="js/owl.carousel.min.js"></script>
+<script src="js/slider/owl.carousel.min.js"></script>
 <!-- Magnific Popup -->
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/isotope.js"></script>
-<script src="js/portfolio-filter.js"></script>
-<script src="js/magnific.init.js"></script>
+<script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="js/magnific-popup/isotope.min.js"></script>
+<script src="js/magnific-popup/portfolio-filter.js"></script>
+<script src="js/magnific-popup/jquery.magnific-popup.init.js"></script>
 <!-- Contact -->
-<script src="js/contact.js"></script>
+<script src="js/contact/contact.js"></script>
 <!-- Counter -->
-<script src="js/counter.init.js"></script>
+<script src="js/counter/counter.init.js"></script>
 <!-- Typed -->
-<script src="js/typed.js"></script>
-<script src="js/typed.init.js"></script>
+<script src="js/typed/typed.js"></script>
+<script src="js/typed/typed.init.js"></script>
 <!-- Tweenmax Js -->
-<script src="js/jquery-twennmax.js"></script>
-<script src="js/TweenMax.min.js"></script>
-<script src="js/jquery-twennmax.init.js"></script>
+<script src="js/tweenmax-js/jquery-twennmax.js"></script>
+<script src="js/tweenmax-js/TweenMax.min.js"></script>
+<script src="js/tweenmax-js/jquery-twennmax.init.js"></script>
 <!-- Feather icon -->
-<script src="js/feather.min.js"></script>
+<script src="js/feather-icon/feather.min.js"></script>
 <!-- Text rotate -->
-<script src="js/jquery.simple-text-rotator.js"></script>
-<script src="js/textrotate.init.js"></script>
+<script src="js/text-rotate/jquery.simple-text-rotator.js"></script>
+<script src="js/text-rotate/jquery.simple-text-rotator.init.js"></script>
 <!-- Video -->
-<script src="js/jquery.mb.YTPlayer.js"></script>
-<script src="js/YTplayer.init.js"></script>
+<script src="js/yt-player/jquery.mb.YTPlayer.js"></script>
+<script src="js/yt-player/jquery.mb.YTPlayer.init.js"></script>
 <!-- Switcher -->
-<script src="js/switcher.js"></script>
+<script src="js/switcher/switcher.js"></script>
 <!-- Main Js -->
-<script src="js/app.js"></script>
+<script src="js/app/app.js"></script>
 <!-- Animate on Scroll-->
-<script src="js/aos.js"></script>
-<script src="js/aos.init.js"></script>
+<script src="js/animate-on-scroll/aos.min.js"></script>
+<script src="js/animate-on-scroll/aos.init.js"></script>
 </body>
 
 </html>

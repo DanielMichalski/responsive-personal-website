@@ -2,7 +2,7 @@
 var a = 0;
 $(window).scroll(function() {
     var oTop = $('#counter').offset().top - window.innerHeight;
-    if (a == 0 && $(window).scrollTop() > oTop) {
+    if (a === 0 && $(window).scrollTop() > oTop) {
         $('.counter-value').each(function() {
             var $this = $(this),
                 countTo = $this.attr('data-count');
@@ -13,7 +13,7 @@ $(window).scroll(function() {
                 },
 
                 {
-                    duration: 2000,
+                    duration: 3000,
                     easing: 'swing',
                     step: function() {
                         $this.text(Math.floor(this.countNum));

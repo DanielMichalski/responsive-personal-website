@@ -1,22 +1,17 @@
 //
 // .scss
 //
-.cta-full{
-    .container-fluid{
-        max-width: 100%;
-        .padding-less.img {
-            background: scroll center no-repeat;
-            background-size: cover;
-            position: absolute;
-            height: 100%;
+.cta-full {
+    img.expertise-img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    .cta-full {
+        img.expertise-img {
+            width: 75%;
         }
-    }    
-    .cta-full-img-box{
-        padding: 100px 10%;
-    }       
-    .cta-full-head {
-        font-size: 22px;    
-        letter-spacing: 0.8px;
     }
 }
 
@@ -28,13 +23,12 @@
         }
         .cta-full-content {
             text-align: left !important;
-        }    
-    }
-}
-@media (max-width: 767px) {
-    .cta-full {
+        }
         .cta-full-img-box{
             padding: 60px 10%;
-        }  
+        }
+        img.expertise-img {
+            width: 90%;
+        }
     }
 }
