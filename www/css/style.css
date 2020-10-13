@@ -1905,6 +1905,10 @@ p.justify-text {
   color: #adb5bd;
   font-size: 15px;
 }
+.footer a {
+  position: relative;
+  z-index: 9999;
+}
 .footer.footer-bar {
   padding: 30px 0;
   border-top: 1px solid #4e555d;
