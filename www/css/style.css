@@ -1415,6 +1415,7 @@ p.justify-text {
 
 .interests-desc {
   transition: all 0.2s ease;
+  color: #161c2d;
 }
 .interests-desc .hobbies:before {
   content: "";
