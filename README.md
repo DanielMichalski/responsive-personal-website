@@ -63,5 +63,5 @@ Website               | [www.danielmichalski.com](https://www.danielmichalski.co
 
 ## Screens
 <p align="center">
-<img alt="image1" width="500px" src="https://raw.githubusercontent.com/DanielMichalski/responsive-personal-website/master/images/about-website/home.jpg" />
+    <img alt="image1" width="500px" src="https://raw.githubusercontent.com/DanielMichalski/responsive-personal-website/master/images/about-website/home.jpg" />
 </p>
