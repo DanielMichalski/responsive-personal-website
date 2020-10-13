@@ -1,10 +1,3 @@
-/* Template Name: Samuel - Responsive Personal Template
-   Author: Uniquecrew
-   Version: 1.0
-   Created: September, 2020
-   File Description: Main JS file of the template
-*/
-
 /************************/
 /*       INDEX          */
 /*=======================
@@ -71,7 +64,7 @@
     }); 
 
     $(".back-to-top").on("click", function() {
-        $("html, body").animate({ scrollTop: 0 }, 500);
+        $("html, body").animate({ scrollTop: 0 }, 1000);
         return false;
     });
     

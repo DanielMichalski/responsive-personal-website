@@ -22,9 +22,7 @@ if (trim($name) == '') {
 } else if (!isEmail($email)) {
     echo '<div class="error_message">You have entered an invalid e-mail address. Please try again.</div>';
     exit();
-}
-
-if (trim($comments) == '') {
+} else if (trim($comments) == '') {
     echo '<div class="error_message">Please enter your message.</div>';
     exit();
 }
@@ -34,8 +32,8 @@ if (get_magic_quotes_gpc()) {
 }
 
 $address = "michalskidaniel2@gmail.com";
-$e_subject = 'Personal website message: ' . $subject;
-$comments = $name . ' writes: ' . PHP_EOL . PHP_EOL . "$comments";
+$e_subject = "Personal website message: $subject";
+$comments = "Message from: $name" . PHP_EOL . PHP_EOL . "$comments";
 
 $headers = "From: $email" . PHP_EOL;
 $headers .= "Reply-To: $email" . PHP_EOL;
@@ -44,7 +42,7 @@ $headers .= "MIME-Version: 1.0" . PHP_EOL;
 $headers .= "Content-type: text/plain; charset=utf-8" . PHP_EOL;
 $headers .= "Content-Transfer-Encoding: quoted-printable" . PHP_EOL;
 $headers .= "X-Priority: 3" . PHP_EOL;
-$headers .= "X-Mailer: PHP". phpversion() . PHP_EOL;
+$headers .= "X-Mailer: PHP" . phpversion() . PHP_EOL;
 
 if (mail($address, $e_subject, $comments, $headers)) {
     echo "<fieldset>";
@@ -54,5 +52,5 @@ if (mail($address, $e_subject, $comments, $headers)) {
     echo "</div>";
     echo "</fieldset>";
 } else {
-    echo 'There was an unexpected error during sending an email!';
+    echo "There was an unexpected error during sending an email!";
 }
