@@ -1,4 +1,4 @@
-# Personal Website
+# Responsive Personal Website
 
 [![Publish Website](https://github.com/DanielMichalski/responsive-personal-website/workflows/Publish%20Website/badge.svg)](https://github.com/DanielMichalski/responsive-personal-website/actions?query=workflow%3A%22Publish+Website%22)
 [![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://www.danielmichalski.com/)
