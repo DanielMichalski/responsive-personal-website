@@ -1,5 +1,7 @@
 FROM php:7.4.11-apache
 
+LABEL maintainer="michalskidaniel2@gmail.com"
+
 RUN apt-get update &&\
     apt-get install --no-install-recommends --assume-yes --quiet ca-certificates curl git &&\
     rm -rf /var/lib/apt/lists/*
