@@ -1,6 +1,7 @@
 # Personal Website
 
 [![Publish Website](https://github.com/DanielMichalski/responsive-personal-website/workflows/Publish%20Website/badge.svg)](https://github.com/DanielMichalski/responsive-personal-website/actions?query=workflow%3A%22Publish+Website%22)
+[![W3C](https://raw.githubusercontent.com/DanielMichalski/responsive-personal-website/master/.github/images/about-website/w3c.svg)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwww.danielmichalski.com%2F)
 
 This is my personal website built with libraries like Bootstrap, Jquery, Particles Js etc. \
 The Website is available under: [www.danielmichalski.com](https://www.danielmichalski.com/)
