@@ -1,7 +1,9 @@
 # Personal Website
 
 [![Publish Website](https://github.com/DanielMichalski/responsive-personal-website/workflows/Publish%20Website/badge.svg)](https://github.com/DanielMichalski/responsive-personal-website/actions?query=workflow%3A%22Publish+Website%22)
+[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://www.danielmichalski.com/)
 [![W3C](https://raw.githubusercontent.com/DanielMichalski/responsive-personal-website/master/.github/images/about-website/w3c.svg)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwww.danielmichalski.com%2F)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/DanielMichalski/responsive-personal-website/graphs/commit-activity)
 
 This is my personal website built with libraries like Bootstrap, Jquery, Particles Js etc. \
 The Website is available under: [www.danielmichalski.com](https://www.danielmichalski.com/)
@@ -10,7 +12,9 @@ The Website is available under: [www.danielmichalski.com](https://www.danielmich
 * [Prerequisites](#prerequisites)
 * [Libraries](#libraries)
 * [Running the application](#running-the-application)
-* [Application access](#application-access)
+* [Access links](#access-links)
+    * [Localhost](#localhost)
+    * [Production](#production)
 * [Screens](#screens)
 
 ## Prerequisites
@@ -27,7 +31,7 @@ The Website is available under: [www.danielmichalski.com](https://www.danielmich
 |[Backstretch Slider](http://srobbin.com/jquery-plugins/backstretch)            | Simple jQuery plugin that allows you to add a dynamically-resized, slideshow-capable background image to any page or element.                                                         |
 |[Magnific Popup](http://dimsemenov.com/plugins/magnific-popup)                 | Magnific Popup is a responsive lightbox & dialog script with focus on performance and providing the best experience for users with any device.                                        |
 |[Isotope](http://isotope.metafizzy.co)                                         | Filter & sort magical layouts.                                                                                                                                                        |
-|[Freepic Images](https://www.freepik.com/home)                                 | Find Free Vectors, Stock Photos, PSD and Icons.                                                                                                                                       |
+|[Freepik Images](https://www.freepik.com/home)                                 | Find Free Vectors, Stock Photos, PSD and Icons.                                                                                                                                       |
 |[Unsplash Images](https://unsplash.com)                                        | The internet’s source of freely-usable images. Powered by creators everywhere.                                                                                                        |
 |[Ripple Js](https://github.com/sirxemic/jquery.ripples)                        | By the powers of WebGL, add a layer of water to your HTML elements which will ripple by cursor interaction.                                                                           |
 |[Text Rotate Js](https://github.com/peachananr/simple-text-rotator)            | Super Simple Text Rotator by Pete R. A lightweight jQuery plugin that will allow you to add a super simple rotating text to your website.                                             |
@@ -51,13 +55,14 @@ cd .docker
 ./start.sh
 ```
 
-## Localhost access
+## Access links
+### Localhost
 Component             | URL                                      
 ---                   | ---                                      
 Website               | [http://localhost/](http://localhost/)                 
 MailHog UI            | [http://localhost:8025/](http://localhost:8025/) 
 
-## Production access
+### Production
 Component             | URL                                      
 ---                   | ---                                      
 Website               | [www.danielmichalski.com](https://www.danielmichalski.com/)                 
