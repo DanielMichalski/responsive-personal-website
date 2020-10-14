@@ -11,6 +11,7 @@ The Website is available under: [www.danielmichalski.com](https://www.danielmich
 ## Table of Contents
 * [Prerequisites](#prerequisites)
 * [Libraries](#libraries)
+* [Docker containers](#docker-containers)
 * [Running the application](#running-the-application)
 * [Access links](#access-links)
     * [Localhost](#localhost)
@@ -40,7 +41,16 @@ The Website is available under: [www.danielmichalski.com](https://www.danielmich
 |[Tweenmax Js](http://greensock.com)                                            | Ultra high-performance, professional-grade animation for the modern web.                                                                                                              |
 |[Animate On Scroll](https://github.com/michalsnik/aos)                         | Animations during scrolling the page.                                                                                                                                                 |
 
+## Docker containers
+There are two Docker containers defined in `.docker/docker-compose.yml` file:
+
+| Container name                                                       | Description                                                                                     |
+|----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+|[personal-website-apache-with-php](https://hub.docker.com/_/php)      | The Debian's Apache httpd in conjunction with PHP (as mod_php) and uses mpm_prefork by default. |
+|[personal-website-mailhog](https://hub.docker.com/r/mailhog/mailhog/) | MailHog is an email testing tool for developers.                                                |
+
 ## Running the application
+In order to run the website please run below commands and in your browser type url definded in [Localhost](#localhost) section.
 #### On Windows
 ```bash
 ## Run Backend and Frontend using Docker Compose
