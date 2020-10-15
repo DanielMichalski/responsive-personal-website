@@ -1863,6 +1863,10 @@ p.justify-text {
   height: 180px !important;
 }
 
+div.lastname {
+  display: none;
+}
+
 .error {
   margin: 8px 0px;
   display: none;
