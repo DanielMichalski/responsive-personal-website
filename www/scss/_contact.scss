@@ -65,3 +65,13 @@ div.lastname {
     color: $success;
   }
 }
+
+span.e-mail {
+  color: $primary;
+
+  &:before {
+    content: attr(data-email-website) "\0040" attr(data-email-user);
+    unicode-bidi: bidi-override;
+    direction: rtl;
+  }
+}
