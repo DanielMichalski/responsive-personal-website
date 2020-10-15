@@ -996,7 +996,7 @@ p.justify-text {
 
 .bg-over-image {
   background-color: rgba(35, 37, 47, 0.5) !important;
-  background-image: url("../images/overlay.png");
+  background-image: url("../images/png/overlay.png");
   background-repeat: repeat;
 }
 
@@ -1357,7 +1357,7 @@ p.justify-text {
 }
 
 #sThemes-layout {
-  background: url("../images/boxed.png") fixed repeat;
+  background: url("../images/jpg/boxed.jpg") fixed repeat;
 }
 #sThemes-layout .sThemesbox {
   background: #ffffff;
