@@ -10,17 +10,20 @@ The Website is available under: [www.danielmichalski.com](https://www.danielmich
 
 ## Table of Contents
 * [Prerequisites](#prerequisites)
+* [RWD Video](#rwd-video)
 * [Libraries](#libraries)
 * [Docker containers](#docker-containers)
 * [Running the application](#running-the-application)
 * [Access links](#access-links)
     * [Localhost](#localhost)
     * [Production](#production)
-* [Video](#video)
 * [Screens](#screens)
 
 ## Prerequisites
 - [Docker Desktop](https://www.docker.com/products/docker-desktop) 
+
+## RWD Video
+[![RWD website video](https://raw.githubusercontent.com/DanielMichalski/responsive-personal-website/master/.github/images/about-website/video.gif)](https://www.danielmichalski.com/)
 
 ## Libraries
 | Library name                                                                  | Description                                                                                                                                                                           |
@@ -77,9 +80,6 @@ MailHog UI            | [http://localhost:8025/](http://localhost:8025/)
 Component             | URL                                      
 ---                   | ---                                      
 Website               | [www.danielmichalski.com](https://www.danielmichalski.com/)                 
-
-### Video
-[![RWD website video](https://raw.githubusercontent.com/DanielMichalski/responsive-personal-website/master/.github/images/about-website/video.gif)](https://www.danielmichalski.com/)
 
 ## Screens
 <p align="center">
