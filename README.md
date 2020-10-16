@@ -79,7 +79,7 @@ Component             | URL
 Website               | [www.danielmichalski.com](https://www.danielmichalski.com/)                 
 
 ### Video
-![RWD website video](https://raw.githubusercontent.com/DanielMichalski/responsive-personal-website/master/.github/images/about-website/video.gif)
+[![RWD website video](https://raw.githubusercontent.com/DanielMichalski/responsive-personal-website/master/.github/images/about-website/video.gif)](https://www.danielmichalski.com/)
 
 ## Screens
 <p align="center">
