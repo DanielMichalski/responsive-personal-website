@@ -5,7 +5,7 @@
 [![W3C](https://raw.githubusercontent.com/DanielMichalski/responsive-personal-website/master/.github/images/about-website/w3c.svg)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwww.danielmichalski.com%2F)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/DanielMichalski/responsive-personal-website/graphs/commit-activity)
 
-This is my personal website built with libraries like Bootstrap, Jquery, Particles Js etc. \
+This is my personal website built with libraries like Bootstrap, jQuery, Particles.js, Aos.js etc. \
 The Website is available under: [www.danielmichalski.com](https://www.danielmichalski.com/)
 
 ## Table of Contents
@@ -26,7 +26,7 @@ The Website is available under: [www.danielmichalski.com](https://www.danielmich
 | Library name                                                                  | Description                                                                                                                                                                           |
 |-------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |[Bootstrap 4x](https://getbootstrap.com/docs/4.4/getting-started/introduction) | Bootstrap is the world’s most popular framework for building responsive, mobile-first sites.                                                                                          |
-|[Jquery](https://jquery.com)                                                   | jQuery is a fast, small, and feature-rich JavaScript library.                                                                                                                         |
+|[jQuery](https://jquery.com)                                                   | jQuery is a fast, small, and feature-rich JavaScript library.                                                                                                                         |
 |[Material Design Icons](https://materialdesignicons.com)                       | Material Design Icons' growing icon collection allows designers and developers targeting various platforms to download icons in the format, color and size they need for any project. |
 |[Feather Icons](https://feathericons.com)                                      | Simply beautiful open source icons.                                                                                                                                                   |
 |[Owl Carousel](http://owlgraphic.com/owlcarousel)                              | Touch enabled jQuery plugin that lets you create beautiful responsive carousel sliders.                                                                                               |
