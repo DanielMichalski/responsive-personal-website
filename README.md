@@ -11,13 +11,13 @@ The Website is available under: [www.danielmichalski.com](https://www.danielmich
 ## Table of Contents
 * [Prerequisites](#prerequisites)
 * [RWD Video](#rwd-video)
-* [Libraries](#libraries)
+* [Used libraries](#used-libraries)
 * [Docker containers](#docker-containers)
 * [Running the application](#running-the-application)
 * [Access links](#access-links)
-    * [Localhost](#localhost)
-    * [Production](#production)
-* [Screens](#screens)
+    * [Localhost environment](#localhost-environment)
+    * [Production environment](#production-environment)
+* [Application screens](#applicaiton-screens)
 
 ## Prerequisites
 - [Docker Desktop](https://www.docker.com/products/docker-desktop) 
@@ -25,7 +25,7 @@ The Website is available under: [www.danielmichalski.com](https://www.danielmich
 ## RWD Video
 [![RWD website video](https://raw.githubusercontent.com/DanielMichalski/responsive-personal-website/master/.github/images/about-website/video.gif)](https://www.danielmichalski.com/)
 
-## Libraries
+## Used libraries
 | Library name                                                                  | Description                                                                                                                                                                           |
 |-------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |[Bootstrap 4x](https://getbootstrap.com/docs/4.4/getting-started/introduction) | Bootstrap is the world’s most popular framework for building responsive, mobile-first sites.                                                                                          |
@@ -70,18 +70,18 @@ cd .docker
 ```
 
 ## Access links
-### Localhost
+### Localhost environment
 Component             | URL                                      
 ---                   | ---                                      
 Website               | [http://localhost/](http://localhost/)                 
 MailHog UI            | [http://localhost:8025/](http://localhost:8025/) 
 
-### Production
+### Production environment
 Component             | URL                                      
 ---                   | ---                                      
 Website               | [www.danielmichalski.com](https://www.danielmichalski.com/)                 
 
-## Screens
+## Applicaiton screens
 <p align="center">
     <a href="https://www.danielmichalski.com/" target="_blank">
         <img alt="image1" width="80%" src="https://raw.githubusercontent.com/DanielMichalski/responsive-personal-website/master/.github/images/about-website/home.jpg" />
