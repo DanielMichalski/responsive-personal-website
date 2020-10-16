@@ -16,6 +16,7 @@ The Website is available under: [www.danielmichalski.com](https://www.danielmich
 * [Access links](#access-links)
     * [Localhost](#localhost)
     * [Production](#production)
+* [Video](#video)
 * [Screens](#screens)
 
 ## Prerequisites
@@ -76,6 +77,9 @@ MailHog UI            | [http://localhost:8025/](http://localhost:8025/)
 Component             | URL                                      
 ---                   | ---                                      
 Website               | [www.danielmichalski.com](https://www.danielmichalski.com/)                 
+
+### Video
+[![Website video](https://raw.githubusercontent.com/DanielMichalski/responsive-personal-website/master/.github/images/video.gif)]
 
 ## Screens
 <p align="center">
