@@ -14,7 +14,7 @@ The Website is available under: [www.danielmichalski.com](https://www.danielmich
 * [Used libraries](#used-libraries)
 * [Docker containers](#docker-containers)
 * [Running the application](#running-the-application)
-* [Access links](#access-links)
+* [Environments](#environments)
     * [Localhost environment](#localhost-environment)
     * [Production environment](#production-environment)
 * [Application screens](#applicaiton-screens)
@@ -69,7 +69,7 @@ cd .docker
 ./start.sh
 ```
 
-## Access links
+## Environments
 ### Localhost environment
 Component             | URL                                      
 ---                   | ---                                      
