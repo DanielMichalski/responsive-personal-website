@@ -64,10 +64,12 @@
         font-weight: 500;
         transition: all 0.2s ease;
         font-size: 18px !important;
+        color: $black;
       }
 
       .company {
         font-size: 13px;
+        color: $black;
       }
 
       &.event-description-right {

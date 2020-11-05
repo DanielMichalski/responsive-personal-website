@@ -1550,9 +1550,11 @@ p.justify-text {
   font-weight: 500;
   transition: all 0.2s ease;
   font-size: 18px !important;
+  color: #161c2d;
 }
 .timeline-page .timeline-item .event .company {
   font-size: 13px;
+  color: #161c2d;
 }
 .timeline-page .timeline-item .event.event-description-right {
   text-align: left;
