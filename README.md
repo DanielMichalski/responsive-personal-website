@@ -54,7 +54,7 @@ There are two Docker containers defined in `.docker/docker-compose.yml` file:
 |[personal-website-mailhog](https://hub.docker.com/r/mailhog/mailhog/) | MailHog is an email testing tool for developers.                                                |
 
 ## Running the application
-In order to run the website please run below commands and in your browser type url definded in [Localhost](#localhost) section.
+In order to run the website please run below commands and in your browser type url defined in [Localhost environment](#localhost-environment) section.
 #### On Windows
 ```bash
 ## Run Backend and Frontend using Docker Compose
