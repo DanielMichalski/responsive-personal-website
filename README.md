@@ -17,7 +17,7 @@ The Website is available under: [www.danielmichalski.com](https://www.danielmich
 * [Environments](#environments)
     * [Localhost environment](#localhost-environment)
     * [Production environment](#production-environment)
-* [Application screens](#applicaiton-screens)
+* [Application screens](#application-screens)
 
 ## Prerequisites
 - [Docker Desktop](https://www.docker.com/products/docker-desktop) 
@@ -57,14 +57,14 @@ There are two Docker containers defined in `.docker/docker-compose.yml` file:
 In order to run the website please run below commands and in your browser type url defined in [Localhost environment](#localhost-environment) section.
 #### On Windows
 ```bash
-## Run Backend and Frontend using Docker Compose
+## Run the server using Docker Compose
 cd .docker
 start.sh
 ```
 
 #### On MacOS / Linux
 ```bash
-## Run Backend and Frontend using Docker Compose
+## Run the server using Docker Compose
 cd .docker
 ./start.sh
 ```
@@ -81,7 +81,7 @@ Component             | URL
 ---                   | ---                                      
 Website               | [www.danielmichalski.com](https://www.danielmichalski.com/)                 
 
-## Applicaiton screens
+## Application screens
 <p align="center">
     <a href="https://www.danielmichalski.com/" target="_blank">
         <img alt="image1" width="80%" src="https://raw.githubusercontent.com/DanielMichalski/responsive-personal-website/master/.github/images/about-website/home.jpg" />
