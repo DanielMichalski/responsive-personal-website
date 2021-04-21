@@ -30,10 +30,6 @@ if (trim($name) == '') {
     exit();
 }
 
-if (get_magic_quotes_gpc()) {
-    $comments = stripslashes($comments);
-}
-
 $address = "michalskidaniel2@gmail.com";
 $e_subject = "Personal website message: $subject";
 $comments = "Message from: $name" . PHP_EOL . PHP_EOL . "$comments";
