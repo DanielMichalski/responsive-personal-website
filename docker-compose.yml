@@ -2,10 +2,10 @@ version: '3.8'
 
 services:
   apache-with-php:
-    build: images/apache-with-php
+    build: ./docker-images/apache-with-php
     container_name: personal-website-apache-with-php
     volumes:
-      - ../www:/var/www/html/
+      - ./www:/var/www/html/
     ports:
       - "80:80"
     networks:
