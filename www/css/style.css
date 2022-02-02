@@ -1843,6 +1843,9 @@ p.justify-text {
   font-size: 15px;
 }
 
+.grecaptcha-badge {
+  display: none !important;
+}
 .form-group {
   position: relative;
   width: 100%;

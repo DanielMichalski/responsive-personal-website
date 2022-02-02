@@ -1,6 +1,11 @@
 //
 // contact.scss
 //
+
+.grecaptcha-badge {
+  display: none !important;
+}
+
 .form-group {
   position: relative;
   width: 100%;
