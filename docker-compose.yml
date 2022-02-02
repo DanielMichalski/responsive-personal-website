@@ -3,22 +3,12 @@ version: '3.8'
 services:
   apache-with-php:
     build: ./docker-images/apache-with-php
-    container_name: personal-website-apache-with-php
     volumes:
       - ./www:/var/www/html/
     ports:
       - "80:80"
-    networks:
-      - personal-website-network
   mailhog:
     image: mailhog/mailhog:v1.0.1
-    container_name: personal-website-mailhog
     ports:
       - "1025:1025"
       - "8025:8025"
-    networks:
-      - personal-website-network
-
-networks:
-  personal-website-network:
-    driver: bridge
