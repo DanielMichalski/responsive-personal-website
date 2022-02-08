@@ -49,6 +49,12 @@ The Website is available here [www.danielmichalski.com](https://www.danielmichal
 | [Tweenmax Js](http://greensock.com)                                            | Ultra high-performance, professional-grade animation for the modern web.                                                                                                              |
 | [Animate On Scroll](https://github.com/michalsnik/aos)                         | Animations during scrolling the page.                                                                                                                                                 |
 
+## Captcha protection
+
+| Name                                                            | Description                                                                                                                                                                         |
+|-----------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [reCAPTCHA v3](https://developers.google.com/recaptcha/docs/v3) | reCAPTCHA v3 returns a score for each request without user friction. The score is based on interactions with your site and enables you to take an appropriate action for your site. |
+
 ## Docker containers
 
 There are two Docker images defined in `docker-compose.yml` file:
