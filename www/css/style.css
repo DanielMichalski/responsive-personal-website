@@ -1908,10 +1908,10 @@ div.lastname {
   color: #25b865;
 }
 
-span.e-mail {
+span.post {
   color: #f89d36;
 }
-span.e-mail:before {
+span.post:before {
   content: attr(data-email-website) "@" attr(data-email-user);
   unicode-bidi: bidi-override;
   direction: rtl;
