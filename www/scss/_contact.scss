@@ -70,7 +70,15 @@ div.lastname {
     color: $success;
   }
 }
+span.ph {
+  color: $primary;
 
+  &:before {
+    content: attr(data-ph);
+    unicode-bidi: bidi-override;
+    direction: rtl;
+  }
+}
 span.post {
   color: $primary;
 

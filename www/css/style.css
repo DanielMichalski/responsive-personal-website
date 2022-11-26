@@ -1908,11 +1908,19 @@ div.lastname {
   color: #25b865;
 }
 
+span.ph {
+  color: #f89d36;
+}
 span.post {
   color: #f89d36;
 }
+span.ph:before {
+  content: attr(data-ph);
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
 span.post:before {
-  content: attr(data-email-website) "@" attr(data-email-user);
+  content: attr(data-email-website) "@@" attr(data-email-user);
   unicode-bidi: bidi-override;
   direction: rtl;
 }
