@@ -1920,7 +1920,7 @@ span.ph:before {
   direction: rtl;
 }
 span.post:before {
-  content: attr(data-email-website) "@@" attr(data-email-user);
+  content: attr(data-email-website) "@" attr(data-email-user);
   unicode-bidi: bidi-override;
   direction: rtl;
 }
