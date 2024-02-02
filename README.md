@@ -1,17 +1,18 @@
 # Responsive Personal Website
 
+This is my personal website built with Bootstrap, jQuery, Particles.js, Aos.js, and many more. \
+The Website is available here [www.danielmichalski.com](https://www.danielmichalski.com/)
+
+[![RWD website video](https://raw.githubusercontent.com/DanielMichalski/responsive-personal-website/master/.github/images/video.gif)](https://www.danielmichalski.com/)
+
 [![Publish Website](https://github.com/DanielMichalski/responsive-personal-website/workflows/Publish%20Website/badge.svg)](https://github.com/DanielMichalski/responsive-personal-website/actions?query=workflow%3A%22Publish+Website%22)
 [![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://www.danielmichalski.com/)
 [![W3C](https://raw.githubusercontent.com/DanielMichalski/responsive-personal-website/master/.github/images/w3c.svg)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwww.danielmichalski.com%2F)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/DanielMichalski/responsive-personal-website/graphs/commit-activity)
 
-This is my personal website built with Bootstrap, jQuery, Particles.js, Aos.js, and many more. \
-The Website is available here [www.danielmichalski.com](https://www.danielmichalski.com/)
-
 ## Table of Contents
 
 * [Prerequisites](#prerequisites)
-* [RWD Video](#rwd-video)
 * [Used libraries](#libraries)
 * [Docker containers](#docker-containers)
 * [Running the application](#running-the-application)
@@ -23,10 +24,6 @@ The Website is available here [www.danielmichalski.com](https://www.danielmichal
 ## Prerequisites
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop)
-
-## RWD Video
-
-[![RWD website video](https://raw.githubusercontent.com/DanielMichalski/responsive-personal-website/master/.github/images/video.gif)](https://www.danielmichalski.com/)
 
 ## Libraries
 
