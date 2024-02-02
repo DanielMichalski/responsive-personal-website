@@ -10,7 +10,9 @@ The Website is available here [www.danielmichalski.com](https://www.danielmichal
 [![W3C](https://raw.githubusercontent.com/DanielMichalski/responsive-personal-website/master/.github/images/w3c.svg)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwww.danielmichalski.com%2F)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/DanielMichalski/responsive-personal-website/graphs/commit-activity)
 
-## Table of Contents
+## Documentation
+
+The documentation is divided into several sections:
 
 * [Prerequisites](#prerequisites)
 * [Used libraries](#libraries)
