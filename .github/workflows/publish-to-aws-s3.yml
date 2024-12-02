@@ -1,0 +1,19 @@
+on: push
+
+name: Publish Website to AWS S3
+
+jobs:
+  FTP-Deploy-Action:
+    name: AWS-S3-Deploy-Action
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2.1.0
+        with:
+          fetch-depth: 2
+      - name: Set AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrects.AWS_ACCESS_KEY_ID }}
+          aws-access-key: ${{ secrects.AWS_SECRET_ACCESS_KEY }}
+      - name: Copy to S3
+        run: aws s3 sync ./www/. s3://danielmichalski-website
